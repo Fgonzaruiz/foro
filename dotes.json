@@ -7,7 +7,7 @@
             "Rareza": "Común",
             "Requisito": "SAL 3",
             "Efecto": "Tus ataques desarmados infligen **+3 daño permanente**.",
-            "Descripción": "Tus nudillos están endurecidos por cientos de peleas en callejones de Shibuya."
+            "Descripción": "Tus nudillos están endurecidos por incontables riñas y peleas en callejones."
         },
         {
             "Nombre": "Escudo Humano",
@@ -16,7 +16,7 @@
             "Rareza": "Común",
             "Requisito": "COR 4",
             "Efecto": "1 vez por combate: Reduces **8 daño** recibido por un aliado (lo absorbes tú).",
-            "Descripción": "Te interpones como un muro, como los tanques de Toman protegiendo a Mikey."
+            "Descripción": "Te interpones como un muro inamovible, protegiendo a tus compañeros del peligro."
         },
         {
             "Nombre": "Golpe Sorpresa",
@@ -25,7 +25,7 @@
             "Rareza": "Común",
             "Requisito": "AST 3 / SAL 2",
             "Efecto": "En tu primer post de combate: **+5 daño** adicional.",
-            "Descripción": "Golpeas desde las sombras, desorientando al enemigo antes de que reaccione."
+            "Descripción": "Golpeas desde las sombras, desorientando al enemigo antes de que pueda reaccionar."
         },
         {
             "Nombre": "Furia Contenida",
@@ -34,7 +34,7 @@
             "Rareza": "Común",
             "Requisito": "ESP 4",
             "Efecto": "Si recibes 10+ daño en un post: Tu próximo ataque inflige **+5 daño** adicional.",
-            "Descripción": "El dolor solo aviva tu espíritu, transformando heridas en golpes letales."
+            "Descripción": "El dolor solo aviva tu espíritu, transformando tus heridas en un incremento de furia letal."
         },
         {
             "Nombre": "Lengua de Plata",
@@ -43,7 +43,7 @@
             "Rareza": "Común",
             "Requisito": "AST 3",
             "Efecto": "**+2 AST permanente** solo para interacciones sociales y engaños.",
-            "Descripción": "Manipulas palabras como un informante de Valhalla sacando secretos en un bar."
+            "Descripción": "Manipulas las palabras y convences a cualquiera, sacando secretos con facilidad."
         },
         {
             "Nombre": "Presencia Inspiradora",
@@ -52,7 +52,7 @@
             "Rareza": "Común",
             "Requisito": "LID 4",
             "Efecto": "1 vez por combate: Aliados en 5m ganan **+1 daño** durante 2 posts.",
-            "Descripción": "Tu voz eleva la moral, como Draken motivando a Toman en una reyerta masiva."
+            "Descripción": "Tu voz eleva la moral y tu presencia motiva a tu banda en medio de una reyerta."
         },
         {
             "Nombre": "Ojo para la Debilidad",
@@ -61,7 +61,7 @@
             "Rareza": "Común",
             "Requisito": "LOG 3 / AST 2",
             "Efecto": "1 vez por escena social: Reduce **2 puntos** del atributo principal del oponente durante 2 posts.",
-            "Descripción": "Lees al enemigo como un libro, explotando grietas en su voluntad."
+            "Descripción": "Lees al enemigo como un libro abierto, explotando las grietas en su voluntad."
         },
         {
             "Nombre": "Juramento de Lealtad",
@@ -70,7 +70,7 @@
             "Rareza": "Común",
             "Requisito": "LID 3 / ESP 2",
             "Efecto": "Seguidores reclutados tienen **+2 lealtad permanente** (máx 10).",
-            "Descripción": "Tus palabras crean lazos inquebrantables, imposibles de romper por rivales."
+            "Descripción": "Tus palabras crean lazos inquebrantables con tus seguidores, asegurando su fidelidad."
         },
         {
             "Nombre": "Manos Rápidas",
@@ -79,7 +79,7 @@
             "Rareza": "Común",
             "Requisito": "AST 4",
             "Efecto": "1 vez por escena: Robas un objeto de hasta **10.000 yenes** sin riesgo de detección.",
-            "Descripción": "Tus dedos son fantasmas en los mercados negros de Ueno."
+            "Descripción": "Tus dedos son fantasmas que se mueven con destreza entre el bullicio."
         },
         {
             "Nombre": "Mecánico Callejero",
@@ -88,7 +88,7 @@
             "Rareza": "Común",
             "Requisito": "LOG 4",
             "Efecto": "Vehículos que modificas tienen **+10 PS** permanentes.",
-            "Descripción": "Conviertes chatarras en bestias, como los mecánicos de Black Dragon."
+            "Descripción": "Conviertes chatarras en verdaderas bestias mecánicas con conocimientos de la calle."
         },
         {
             "Nombre": "Oído en las Calles",
@@ -97,7 +97,7 @@
             "Rareza": "Común",
             "Requisito": "AST 3 / LOG 2",
             "Efecto": "1 vez por día: Obtienes **1 pista concreta** de alta calidad de tus contactos.",
-            "Descripción": "Las calles susurran para ti en Shinjuku."
+            "Descripción": "Los murmullos de la ciudad son información vital para ti."
         },
         {
             "Nombre": "Curandero Improvisado",
@@ -106,7 +106,7 @@
             "Rareza": "Común",
             "Requisito": "ESP 3 / LOG 2",
             "Efecto": "1 vez por día: Recupera **10 PS** a ti o un aliado.",
-            "Descripción": "Usas trapos y voluntad para mantener vivo al crew después de la masacre."
+            "Descripción": "Utilizas trapos y conocimientos básicos para estabilizar y mantener viva a tu gente después de una paliza."
         },
         {
             "Nombre": "Adaptación Urbana",
@@ -115,7 +115,7 @@
             "Rareza": "Común",
             "Requisito": "COR 3",
             "Efecto": "**+2 COR permanente** solo en entornos urbanos (calles, edificios).",
-            "Descripción": "Tokio es tu patio de juegos mortal."
+            "Descripción": "La ciudad es tu dominio; te mueves con fluidez en sus laberintos de cemento y acero."
         },
         {
             "Nombre": "Voluntad de Acero",
@@ -124,7 +124,7 @@
             "Rareza": "Común",
             "Requisito": "ESP 4",
             "Efecto": "1 vez por combate: Ignoras completamente **5 daño** del próximo ataque.",
-            "Descripción": "Tu espíritu rechaza el dolor como un Oni menor."
+            "Descripción": "Tu espíritu rechaza el dolor y la debilidad, permitiéndote encajar golpes devastadores."
         },
         {
             "Nombre": "Plan B Rápido",
@@ -133,7 +133,7 @@
             "Rareza": "Común",
             "Requisito": "LOG 3",
             "Efecto": "1 vez por escena: Si fallas una acción, repítela con **+2** a tu atributo relevante.",
-            "Descripción": "Siempre tienes una salida en el caos de Kabukicho."
+            "Descripción": "Siempre tienes una alternativa lista; el fracaso no es una opción, solo un desvío."
         }
     ]
 }
