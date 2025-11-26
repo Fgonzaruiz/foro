@@ -5,135 +5,135 @@
             "Tipo": "Bélica",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "SAL 3",
+            "Requisito": "SAL 3+",
             "Efecto": "Tus ataques desarmados infligen **+3 daño permanente**.",
-            "Descripción": "Tus nudillos están endurecidos por incontables riñas y peleas en callejones."
+            "Descripción": "Tus nudillos están endurecidos por incontables riñas y peleas en callejones. Cada golpe lleva el peso de todas las batallas que has sobrevivido."
         },
         {
-            "Nombre": "Escudo Humano",
-            "Tipo": "Bélica",
-            "Nivel_Minimo": 2,
-            "Rareza": "Común",
-            "Requisito": "COR 4",
-            "Efecto": "1 vez por combate: Reduces **8 daño** recibido por un aliado (lo absorbes tú).",
-            "Descripción": "Te interpones como un muro inamovible, protegiendo a tus compañeros del peligro."
-        },
-        {
-            "Nombre": "Golpe Sorpresa",
+            "Nombre": "Resistencia Callejera",
             "Tipo": "Bélica",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "AST 3 / SAL 2",
-            "Efecto": "En tu primer post de combate: **+5 daño** adicional.",
-            "Descripción": "Golpeas desde las sombras, desorientando al enemigo antes de que pueda reaccionar."
+            "Requisito": "COR 3+",
+            "Efecto": "Ganas **+10 PS permanentes**. Reduces todo daño recibido en **1 punto adicional**.",
+            "Descripción": "Has recibido tantas palizas que tu cuerpo ha aprendido a aguantar castigo que derribaría a otros."
         },
         {
-            "Nombre": "Furia Contenida",
+            "Nombre": "Instinto de Supervivencia",
             "Tipo": "Bélica",
-            "Nivel_Minimo": 3,
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "ESP 4",
-            "Efecto": "Si recibes 10+ daño en un post: Tu próximo ataque inflige **+5 daño** adicional.",
-            "Descripción": "El dolor solo aviva tu espíritu, transformando tus heridas en un incremento de furia letal."
+            "Requisito": "AST 3+",
+            "Efecto": "**+2 a defensa** cuando estás por debajo del 50% de salud. Ganas **+1 a Momentum** al inicio de cualquier combate donde estás en desventaja numérica.",
+            "Descripción": "El peligro te agudiza en lugar de paralizarte. Cuando otros entran en pánico, tú encuentras la salida."
         },
         {
-            "Nombre": "Lengua de Plata",
+            "Nombre": "Presencia Intimidante",
             "Tipo": "Social",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "AST 3",
-            "Efecto": "**+2 AST permanente** solo para interacciones sociales y engaños.",
-            "Descripción": "Manipulas las palabras y convences a cualquiera, sacando secretos con facilidad."
+            "Requisito": "ESP 3+",
+            "Efecto": "**+2 a chequeos de Intimidación**. Enemigos con nivel 3+ inferior al tuyo sufren **-1 a su primera acción** en combate contra ti.",
+            "Descripción": "Hay algo en tu mirada, en cómo te paras, que hace que otros reconozcan instintivamente que eres peligroso."
         },
         {
-            "Nombre": "Presencia Inspiradora",
-            "Tipo": "Social",
-            "Nivel_Minimo": 2,
-            "Rareza": "Común",
-            "Requisito": "LID 4",
-            "Efecto": "1 vez por combate: Aliados en 5m ganan **+1 daño** durante 2 posts.",
-            "Descripción": "Tu voz eleva la moral y tu presencia motiva a tu banda en medio de una reyerta."
-        },
-        {
-            "Nombre": "Ojo para la Debilidad",
+            "Nombre": "Palabra de Líder",
             "Tipo": "Social",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "LOG 3 / AST 2",
-            "Efecto": "1 vez por escena social: Reduce **2 puntos** del atributo principal del oponente durante 2 posts.",
-            "Descripción": "Lees al enemigo como un libro abierto, explotando las grietas en su voluntad."
+            "Requisito": "LID 3+",
+            "Efecto": "**+2 a negociaciones** y chequeos de reclutamiento. **Una vez por día**, puedes re-tirar un chequeo fallido de Liderazgo.",
+            "Descripción": "Sabes qué decir y cuándo decirlo. La gente te escucha, incluso cuando no quieren hacerlo."
         },
         {
-            "Nombre": "Juramento de Lealtad",
+            "Nombre": "Mentiroso Natural",
             "Tipo": "Social",
-            "Nivel_Minimo": 3,
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "LID 3 / ESP 2",
-            "Efecto": "Seguidores reclutados tienen **+2 lealtad permanente** (máx 10).",
-            "Descripción": "Tus palabras crean lazos inquebrantables con tus seguidores, asegurando su fidelidad."
+            "Requisito": "AST 3+",
+            "Efecto": "**+2 a chequeos de Engaño**. Otros tienen **-1 a detectar** tus mentiras. Puedes fabricar coartadas básicas sin preparación previa.",
+            "Descripción": "Mentir es tan natural como respirar. Tu rostro no delata nada, tus historias suenan convincentes incluso cuando son completamente falsas."
         },
         {
-            "Nombre": "Manos Rápidas",
+            "Nombre": "Mecánico de Garaje",
             "Tipo": "Oficio",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "AST 4",
-            "Efecto": "1 vez por escena: Robas un objeto de hasta **10.000 yenes** sin riesgo de detección.",
-            "Descripción": "Tus dedos son fantasmas que se mueven con destreza entre el bullicio."
+            "Requisito": "LOG 2+",
+            "Efecto": "Puedes **reparar vehículos** con herramientas básicas. **Reduces a la mitad** el coste de mantenimiento de tus vehículos. **+2 a chequeos** relacionados con mecánica.",
+            "Descripción": "Has pasado suficiente tiempo bajo el capó de motos y coches para entender cómo funcionan. Puedes mantener tu vehículo funcionando con alambre y determinación."
         },
         {
-            "Nombre": "Mecánico Callejero",
-            "Tipo": "Oficio",
-            "Nivel_Minimo": 2,
-            "Rareza": "Común",
-            "Requisito": "LOG 4",
-            "Efecto": "Vehículos que modificas tienen **+10 PS** permanentes.",
-            "Descripción": "Conviertes chatarras en verdaderas bestias mecánicas con conocimientos de la calle."
-        },
-        {
-            "Nombre": "Oído en las Calles",
+            "Nombre": "Primeros Auxilios",
             "Tipo": "Oficio",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "AST 3 / LOG 2",
-            "Efecto": "1 vez por día: Obtienes **1 pista concreta** de alta calidad de tus contactos.",
-            "Descripción": "Los murmullos de la ciudad son información vital para ti."
+            "Requisito": "LOG 2+",
+            "Efecto": "Puedes **estabilizar aliados inconscientes** sin equipo médico. Durante descansos cortos, tus aliados recuperan **+5 PS adicionales** si los atiendes. **+2 a chequeos médicos básicos**.",
+            "Descripción": "Sabes cómo detener sangrado, entablillar huesos y mantener a alguien vivo hasta que llegue ayuda real. En las calles, eso puede ser la diferencia entre vivir y morir."
         },
         {
-            "Nombre": "Curandero Improvisado",
+            "Nombre": "Conocimiento de las Calles",
             "Tipo": "Oficio",
-            "Nivel_Minimo": 3,
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "ESP 3 / LOG 2",
-            "Efecto": "1 vez por día: Recupera **10 PS** a ti o un aliado.",
-            "Descripción": "Utilizas trapos y conocimientos básicos para estabilizar y mantener viva a tu gente después de una paliza."
+            "Requisito": "AST 2+",
+            "Efecto": "**+2 a chequeos de Información** en tu distrito. Conoces **rutas de escape** y atajos ocultos. Puedes identificar **afiliaciones de pandillas** por colores, símbolos o comportamiento.",
+            "Descripción": "Has crecido en estas calles. Conoces cada callejón, cada esquina, cada negocio. Sabes quién controla qué y cómo moverte sin llamar atención."
         },
         {
-            "Nombre": "Adaptación Urbana",
+            "Nombre": "Conductor Experimentado",
             "Tipo": "Utilidad",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "COR 3",
-            "Efecto": "**+2 COR permanente** solo en entornos urbanos (calles, edificios).",
-            "Descripción": "La ciudad es tu dominio; te mueves con fluidez en sus laberintos de cemento y acero."
+            "Requisito": "AST 3+",
+            "Efecto": "**+2 a chequeos de Conducción**. Puedes realizar **maniobras arriesgadas** sin penalización. Durante persecuciones, tus aliados pasajeros **no sufren penalizadores** por movimiento.",
+            "Descripción": "Ya sea moto o coche, lo conduces como extensión de tu cuerpo. Curvas cerradas, calles estrechas, persecuciones a alta velocidad: todo es segunda naturaleza."
         },
         {
-            "Nombre": "Voluntad de Acero",
-            "Tipo": "Utilidad",
-            "Nivel_Minimo": 2,
-            "Rareza": "Común",
-            "Requisito": "ESP 4",
-            "Efecto": "1 vez por combate: Ignoras completamente **5 daño** del próximo ataque.",
-            "Descripción": "Tu espíritu rechaza el dolor y la debilidad, permitiéndote encajar golpes devastadores."
-        },
-        {
-            "Nombre": "Plan B Rápido",
+            "Nombre": "Aguante Férreo",
             "Tipo": "Utilidad",
             "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "LOG 3",
-            "Efecto": "1 vez por escena: Si fallas una acción, repítela con **+2** a tu atributo relevante.",
-            "Descripción": "Siempre tienes una alternativa lista; el fracaso no es una opción, solo un desvío."
+            "Requisito": "COR 3+",
+            "Efecto": "**Ignoras el primer nivel de Agotamiento** completamente. Puedes funcionar **sin dormir** durante 36 horas sin penalizaciones. **+1 a resistir** efectos de dolor.",
+            "Descripción": "Tu cuerpo simplemente aguanta más que el de otros. Puedes seguir adelante cuando otros ya habrían colapsado."
+        },
+        {
+            "Nombre": "Sentidos Agudos",
+            "Tipo": "Utilidad",
+            "Nivel_Minimo": 1,
+            "Rareza": "Común",
+            "Requisito": "LOG 2+",
+            "Efecto": "**+2 a detectar emboscadas** o peligros ocultos. **No puedes ser sorprendido** por enemigos en espacios abiertos. Notas **detalles sutiles** que otros pasan por alto.",
+            "Descripción": "Tus sentidos están afinados por la paranoia de sobrevivir en territorio peligroso. Oyes el paso sigiloso, ves la sombra sospechosa, sientes cuando algo no está bien."
+        },
+        {
+            "Nombre": "Contactos en el Bajo Mundo",
+            "Tipo": "Social",
+            "Nivel_Minimo": 1,
+            "Rareza": "Común",
+            "Requisito": "AST 2+ o LID 2+",
+            "Efecto": "Conoces **vendedores del mercado negro** que te ofrecen **10% de descuento**. **Una vez por semana**, puedes obtener **información útil** sin costo a través de tus contactos.",
+            "Descripción": "Has cultivado relaciones con la gente adecuada en los lugares equivocados. Sabes a quién llamar cuando necesitas algo fuera de lo legal."
+        },
+        {
+            "Nombre": "Peleador Callejero",
+            "Tipo": "Bélica",
+            "Nivel_Minimo": 1,
+            "Rareza": "Común",
+            "Requisito": "SAL 2+",
+            "Efecto": "**+2 daño** cuando usas armas improvisadas (sillas, botellas, tuberías). Puedes **desarmar** a enemigos con **+1 al chequeo**. **No sufres penalización** por pelear en espacios reducidos.",
+            "Descripción": "No aprendiste a pelear en un dojo, lo aprendiste sobreviviendo. Peleas sucio, peleas con lo que tengas a mano, y peleas para ganar."
+        },
+        {
+            "Nombre": "Estratega Táctico",
+            "Tipo": "Utilidad",
+            "Nivel_Minimo": 1,
+            "Rareza": "Común",
+            "Requisito": "LOG 3+",
+            "Efecto": "**Una vez por combate**, puedes usar una acción para **analizar el campo de batalla** y otorgar a todos tus aliados **+1 a su próxima acción**. **+2 a chequeos** de planificación de misiones.",
+            "Descripción": "Ves el campo de batalla como tablero de ajedrez. Mientras otros reaccionan, tú ya estás tres movimientos adelante, anticipando, planeando, adaptando."
         }
     ]
 }
