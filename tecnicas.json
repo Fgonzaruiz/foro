@@ -1,0 +1,180 @@
+{
+    "tecnicas": [
+        {
+            "Nombre": "Puño Inquebrantable",
+            "Nivel": 1,
+            "Tipo": "Universal",
+            "Categoria": "Ataque",
+            "Coste_PV": 3,
+            "Requisitos": "Salvajismo 2+",
+            "Descripcion": "Concentras toda tu determinación en un solo golpe devastador. Tu puño brilla momentáneamente con voluntad solidificada.",
+            "Efecto": "**Bonificador:** +4 a Salvajismo para este ataque.\n**Penetración:** Ignora 5 puntos de Coraje del enemigo.\n**Estado:** Si el ataque conecta, el enemigo queda Aturdido durante 1 post.",
+            "Manifestacion": "Tu puño se envuelve en un aura tenue mientras plantas firmemente ambos pies. El golpe atraviesa el aire con un silbido audible, dejando una estela de presión."
+        },
+        {
+            "Nombre": "Paso Fantasma",
+            "Nivel": 2,
+            "Tipo": "Kamaitachi",
+            "Categoria": "Defensa",
+            "Coste_PV": 3,
+            "Requisitos": "Astucia 3+, Sangre de Kamaitachi",
+            "Descripcion": "Te mueves con velocidad sobrenatural, dejando una imagen residual mientras esquivas.",
+            "Efecto": "**Esquiva Automática:** El próximo ataque contra ti falla automáticamente.\n**Contraataque:** Puedes realizar un ataque inmediato con +2 a Salvajismo.\n**Reposición:** Te mueves hasta 5 metros sin provocar ataques de oportunidad.",
+            "Manifestacion": "Tu forma se desdibuja por un instante. El enemigo golpea donde estabas, pero solo encuentra aire. Ya estás detrás de él."
+        },
+        {
+            "Nombre": "Rugido del Líder",
+            "Nivel": 1,
+            "Tipo": "Dragón",
+            "Categoria": "Apoyo",
+            "Coste_PV": 2,
+            "Requisitos": "Liderazgo 3+",
+            "Descripcion": "Emites un grito de mando que galvaniza a tus aliados y sacude a tus enemigos.",
+            "Efecto": "**Aliados (10 metros):** +2 a Coraje durante 2 posts.\n**Enemigos (10 metros):** Deben superar chequeo de Coraje vs tu Liderazgo o sufren -1 a su próxima acción.\n**Moral:** Aliados afectados ignoran efectos de miedo.",
+            "Manifestacion": "Tu voz retumba con autoridad absoluta. No es volumen, es PODER. Aliados se yerguen más firmes, enemigos dudan momentáneamente."
+        },
+        {
+            "Nombre": "Embestida Brutal",
+            "Nivel": 3,
+            "Tipo": "Oni",
+            "Categoria": "Ataque",
+            "Coste_PV": 4,
+            "Requisitos": "Salvajismo 4+, Sangre de Oni",
+            "Descripcion": "Te lanzas contra tu enemigo con furia descontrolada, sacrificando defensa por puro poder destructivo.",
+            "Efecto": "**Daño Masivo:** +6 a Salvajismo para este ataque.\n**Sangrado:** El enemigo sangra 5 PS por post durante 2 posts.\n**Coste:** Tu defensa se reduce a la mitad hasta tu próximo post.",
+            "Manifestacion": "Tus ojos se inyectan en sangre. Cargas con rugido animal, sin preocuparte por los golpes que recibes. Solo importa DESTRUIR."
+        },
+        {
+            "Nombre": "Llama Curativa",
+            "Nivel": 2,
+            "Tipo": "Fenix",
+            "Categoria": "Apoyo",
+            "Coste_PV": 4,
+            "Requisitos": "Espiritu 3+, Sangre de Fénix",
+            "Descripcion": "Canalizas tu voluntad vital hacia un aliado, cerrando sus heridas con calor reconfortante.",
+            "Efecto": "**Curación:** Un aliado a 10 metros recupera PS = tu Espíritu × 4.\n**Limpieza:** Remueve un estado negativo (Sangrado, Aturdido o Envenenado).\n**Toque:** Si lo tocas directamente, la curación aumenta en 50%.",
+            "Manifestacion": "Luz dorada fluye desde tus manos. Las heridas del aliado dejan de sangrar, su respiración se estabiliza, el dolor disminuye visiblemente."
+        },
+        {
+            "Nombre": "Escudo Viviente",
+            "Nivel": 3,
+            "Tipo": "Komainu",
+            "Categoria": "Defensa",
+            "Coste_PV": 5,
+            "Requisitos": "Coraje 4+, Sangre de Komainu",
+            "Descripcion": "Manifiestas tu voluntad como barrera protectora que absorbe el daño destinado a tus aliados.",
+            "Efecto": "**Protección Grupal:** Todos los aliados a 5 metros reciben reducción de daño = tu Coraje durante 2 posts.\n**Anclaje:** No puedes ser movido o derribado mientras esta técnica está activa.\n**Reflexión:** Enemigos que ataquen cuerpo a cuerpo a aliados protegidos reciben tu Coraje en daño reflejo.",
+            "Manifestacion": "Tu aura se expande como cúpula dorada translúcida. Parece que el aire mismo se solidifica alrededor de tus aliados."
+        },
+        {
+            "Nombre": "Ilusión Dividida",
+            "Nivel": 4,
+            "Tipo": "Kitsune",
+            "Categoria": "Apoyo",
+            "Coste_PV": 5,
+            "Requisitos": "Astucia 5+, Sangre de Kitsune",
+            "Descripcion": "Creas múltiples imágenes ilusorias de ti mismo que confunden completamente a los enemigos.",
+            "Efecto": "**Copias:** Generas 3 ilusiones que se mueven contigo durante 3 posts.\n**Confusión:** Enemigos tienen -3 a atacarte (no saben cuál eres realmente).\n**Dispersión:** Cuando una ilusión es atacada, se disuelve pero el atacante queda Desorientado durante 1 post.",
+            "Manifestacion": "De repente hay cuatro versiones de ti. Se mueven en perfecta sincronía, cada una pareciendo igual de real. Enemigos parpadean confundidos."
+        },
+        {
+            "Nombre": "Golpe del Superviviente",
+            "Nivel": 2,
+            "Tipo": "Tanuki",
+            "Categoria": "Ataque",
+            "Coste_PV": 3,
+            "Requisitos": "Logica 3+, Sangre de Tanuki",
+            "Descripcion": "Encuentras el momento perfecto para golpear, convirtiendo la desesperación en oportunidad.",
+            "Efecto": "**Oportunista:** Si estás por debajo del 50% de salud, este ataque tiene +5 a Salvajismo.\n**Adaptativo:** Puedes usar Lógica en lugar de Salvajismo para este ataque.\n**Recuperación:** Si el ataque reduce al enemigo por debajo del 50% de su salud, recuperas 5 PS.",
+            "Manifestacion": "Tropiezas, te tambaleas... y entonces GOLPEAS desde el ángulo que nadie esperaba. La desesperación se convierte en astucia pura."
+        },
+        {
+            "Nombre": "Barrido Demoledor",
+            "Nivel": 1,
+            "Tipo": "Universal",
+            "Categoria": "Ataque",
+            "Coste_PV": 2,
+            "Requisitos": "Salvajismo 2+",
+            "Descripcion": "Una patada giratoria poderosa que puede derribar a múltiples enemigos cercanos.",
+            "Efecto": "**Área:** Afecta hasta 3 enemigos adyacentes entre sí a 3 metros.\n**Daño:** Cada enemigo recibe ataque con tu Salvajismo.\n**Derribo:** Enemigos golpeados deben superar chequeo de Coraje vs tu Salvajismo o quedan Derribados.",
+            "Manifestacion": "Giras sobre tu eje con patada horizontal devastadora. Tu pierna corta el aire como látigo, barriendo todo a tu altura."
+        },
+        {
+            "Nombre": "Mirada Intimidante",
+            "Nivel": 1,
+            "Tipo": "Universal",
+            "Categoria": "Apoyo",
+            "Coste_PV": 2,
+            "Requisitos": "Espiritu 2+",
+            "Descripcion": "Tu presencia se vuelve opresiva. Una mirada basta para hacer dudar a enemigos más débiles.",
+            "Efecto": "**Objetivo:** Un enemigo a 10 metros que puedas ver.\n**Intimidación:** Debe superar chequeo de Coraje vs tu Espíritu o queda Intimidado durante 2 posts (-2 a todas sus acciones).\n**Débiles:** Enemigos con nivel 3+ inferior al tuyo fallan automáticamente.",
+            "Manifestacion": "Tus ojos se fijan en el objetivo con intensidad que hace que el aire se sienta más pesado. El enemigo siente escalofríos instintivos."
+        },
+        {
+            "Nombre": "Contraataque Calculado",
+            "Nivel": 3,
+            "Tipo": "Universal",
+            "Categoria": "Defensa",
+            "Coste_PV": 4,
+            "Requisitos": "Logica 4+",
+            "Descripcion": "Lees el ataque enemigo perfectamente y lo conviertes en tu ventaja, respondiendo con precisión quirúrgica.",
+            "Efecto": "**Reacción:** Úsalo cuando un enemigo te ataque.\n**Bloqueo:** Reduces el daño recibido en tu Lógica × 2.\n**Contraataque:** Atacas inmediatamente con +4 a Salvajismo o Astucia.\n**Crítico:** Si tu contraataque supera la defensa enemiga por 5+, causa daño doble.",
+            "Manifestacion": "Desvías el golpe con mínimo movimiento, usando el momentum del enemigo contra él. Tu respuesta es inmediata y devastadora."
+        },
+        {
+            "Nombre": "Grito de Guerra",
+            "Nivel": 2,
+            "Tipo": "Dragón",
+            "Categoria": "Apoyo",
+            "Coste_PV": 3,
+            "Requisitos": "Liderazgo 3+, Coraje 3+",
+            "Descripcion": "Un grito que enciende el espíritu combativo de tus aliados, haciéndolos luchar más ferozmente.",
+            "Efecto": "**Aliados (15 metros):** +3 a Salvajismo durante 3 posts.\n**Valentía:** Aliados afectados ignoran penalizadores por heridas durante 1 post.\n**Sinergia:** Si hay 3+ aliados afectados, recuperas 2 PV.",
+            "Manifestacion": "Tu grito resuena en el campo de batalla. Aliados responden con rugidos propios, sus golpes se vuelven más salvajes y decididos."
+        },
+        {
+            "Nombre": "Sacrificio del Berserker",
+            "Nivel": 5,
+            "Tipo": "Oni",
+            "Categoria": "Ataque",
+            "Coste_PV": 6,
+            "Requisitos": "Salvajismo 6+, Espiritu 5+, Sangre de Oni",
+            "Descripcion": "Sacrificas tu propia vitalidad para desatar un ataque de poder aterrador que ignora toda defensa.",
+            "Efecto": "**Coste Adicional:** Pierdes 15 PS al activar esta técnica.\n**Poder Absoluto:** +8 a Salvajismo, el ataque ignora completamente la defensa enemiga.\n**Devastación:** Si reduces al enemigo a 0 PS con este ataque, recuperas los 15 PS sacrificados.\n**Marca:** Enemigo queda Sangrando gravemente (8 PS por post durante 3 posts).",
+            "Manifestacion": "Tu cuerpo se ENCIENDE con aura rojiza. Sangre fluye de tus ojos y boca, pero tu golpe es APOCALÍPTICO. Destrucción pura."
+        },
+        {
+            "Nombre": "Ráfaga Veloz",
+            "Nivel": 4,
+            "Tipo": "Kamaitachi",
+            "Categoria": "Ataque",
+            "Coste_PV": 5,
+            "Requisitos": "Astucia 5+, Salvajismo 4+, Sangre de Kamaitachi",
+            "Descripcion": "Atacas con velocidad imposible de seguir, conectando múltiples golpes antes de que el enemigo pueda reaccionar.",
+            "Efecto": "**Múltiples Golpes:** Realizas 3 ataques contra un objetivo en un solo post.\n**Velocidad:** Cada ataque usa Astucia + Salvajismo para daño.\n**Acumulativo:** Si los 3 ataques conectan, el último causa +50% de daño.\n**Momentum:** Después de esta técnica, puedes moverte 10 metros sin provocar ataques de oportunidad.",
+            "Manifestacion": "Tu forma se DESDIBUJA. Golpeas al enemigo tres veces en menos de un segundo: estómago, mandíbula, costillas. Antes de que registren el primer golpe, ya conectaste el tercero."
+        },
+        {
+            "Nombre": "Adaptación Improvisada",
+            "Nivel": 3,
+            "Tipo": "Tanuki",
+            "Categoria": "Apoyo",
+            "Coste_PV": 4,
+            "Requisitos": "Logica 4+, Astucia 4+, Sangre de Tanuki",
+            "Descripcion": "Tu mente trabaja a velocidad sobrehumana, encontrando soluciones creativas con lo que tienes a mano.",
+            "Efecto": "**Objeto Improvisado:** Puedes usar cualquier objeto del entorno como arma efectiva durante 3 posts (bonificador +3 a ataques).\n**Táctica Espontánea:** Ganas +2 a tu próxima tirada de cualquier tipo.\n**Suerte:** Una vez durante la duración, puedes re-tirar un chequeo fallido.",
+            "Manifestacion": "Miras alrededor con ojos brillantes. Esa silla, esa botella, ese cable... de repente ves posibilidades que nadie más ve. Todo es un arma."
+        },
+        {
+            "Nombre": "Aura Protectora",
+            "Nivel": 4,
+            "Tipo": "Fenix",
+            "Categoria": "Apoyo",
+            "Coste_PV": 6,
+            "Requisitos": "Espiritu 5+, Liderazgo 3+, Sangre de Fénix",
+            "Descripcion": "Manifiestas un aura de vitalidad pura que sostiene a tus aliados en el campo de batalla.",
+            "Efecto": "**Radio:** 10 metros, duración 4 posts.\n**Regeneración:** Aliados en el aura recuperan tu Espíritu × 2 en PS al inicio de cada uno de sus posts.\n**Resistencia:** Aliados en el aura tienen +2 a Coraje.\n**Beacon:** Mientras el aura esté activa, aliados pueden ver tu posición incluso a través de obstáculos.",
+            "Manifestacion": "Luz dorada cálida pulsa desde tu cuerpo rítmicamente. Aliados dentro se sienten renovados, como si cada respiración los fortaleciera."
+        }
+    ]
+}
