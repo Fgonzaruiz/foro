@@ -2,123 +2,138 @@
     "dotes": [
         {
             "Nombre": "Puño de Hierro",
-            "Tipo": "Combate",
+            "Tipo": "Bélica",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / SAL 3",
-            "Efecto": "En un post de combate, infliges daño adicional narrativo a un enemigo con un golpe directo, causando que pierda el equilibrio o sufra una herida visible que afecta su próximo movimiento.",
-            "Descripción": "Has endurecido tus puños en peleas callejeras de Shibuya. Tu salvajismo se manifiesta en impactos brutales que rompen defensas débiles, como un miembro de Toman derribando a un rival con un solo gancho."
+            "Requisito": "SAL 3",
+            "Efecto": "Tus ataques desarmados infligen **+3 daño permanente**.",
+            "Descripción": "Tus nudillos están endurecidos por cientos de peleas en callejones de Shibuya."
         },
         {
             "Nombre": "Escudo Humano",
-            "Tipo": "Combate",
+            "Tipo": "Bélica",
+            "Nivel_Minimo": 2,
             "Rareza": "Común",
-            "Requisito": "Nivel 2 / COR 4",
-            "Efecto": "En un post, proteges a un aliado de un ataque enemigo, absorbiendo parte del daño narrativo en ti mismo y manteniendo tu posición sin retroceder.",
-            "Descripción": "Tu coraje te hace interponerte en el camino del peligro, como un teniente de pandilla cubriendo a su líder en una emboscada. Las heridas no te detienen; solo avivan tu determinación."
+            "Requisito": "COR 4",
+            "Efecto": "1 vez por combate: Reduces **8 daño** recibido por un aliado (lo absorbes tú).",
+            "Descripción": "Te interpones como un muro, como los tanques de Toman protegiendo a Mikey."
         },
         {
             "Nombre": "Golpe Sorpresa",
-            "Tipo": "Combate",
+            "Tipo": "Bélica",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / AST 3 / SAL 2",
-            "Efecto": "En el inicio de un combate, describes un ataque inesperado que desorienta a un enemigo, dándote ventaja narrativa en el siguiente intercambio.",
-            "Descripción": "Eres astuto en las sombras de las calles, lanzando un puñetazo desde un ángulo ciego como un pandillero acechando en un callejón de Harajuku. Tu salvajismo se combina con engaño para golpear primero."
+            "Requisito": "AST 3 / SAL 2",
+            "Efecto": "En tu primer post de combate: **+5 daño** adicional.",
+            "Descripción": "Golpeas desde las sombras, desorientando al enemigo antes de que reaccione."
         },
         {
             "Nombre": "Furia Contenida",
-            "Tipo": "Combate",
+            "Tipo": "Bélica",
+            "Nivel_Minimo": 3,
             "Rareza": "Común",
-            "Requisito": "Nivel 3 / ESP 4",
-            "Efecto": "Después de recibir daño en un post, respondes con un contraataque narrativo más intenso, ignorando el dolor y presionando al agresor.",
-            "Descripción": "Tu espíritu inquebrantable transforma el dolor en combustible, como un luchador de Valhalla que se levanta más fuerte tras un golpe. No caes; te vuelves imparable por un momento."
+            "Requisito": "ESP 4",
+            "Efecto": "Si recibes 10+ daño en un post: Tu próximo ataque inflige **+5 daño** adicional.",
+            "Descripción": "El dolor solo aviva tu espíritu, transformando heridas en golpes letales."
         },
         {
             "Nombre": "Lengua de Plata",
             "Tipo": "Social",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / AST 3",
-            "Efecto": "En una interacción social, convences a un NPC neutral de que te dé información básica o un favor menor, alterando el flujo de la escena a tu favor.",
-            "Descripción": "Tu astucia te permite manipular conversaciones en los bares de Roppongi, como un informante tejiendo mentiras para extraer secretos de un rival sin que se dé cuenta."
+            "Requisito": "AST 3",
+            "Efecto": "**+2 AST permanente** solo para interacciones sociales y engaños.",
+            "Descripción": "Manipulas palabras como un informante de Valhalla sacando secretos en un bar."
         },
         {
             "Nombre": "Presencia Inspiradora",
             "Tipo": "Social",
+            "Nivel_Minimo": 2,
             "Rareza": "Común",
-            "Requisito": "Nivel 2 / LID 4",
-            "Efecto": "En un post grupal, motivas a tus aliados pandilleros a actuar con más confianza, mejorando su coordinación narrativa en la escena.",
-            "Descripción": "Como un líder carismático de banda, tu liderazgo eleva el ánimo de tu crew en una reunión callejera, haciendo que sigan tu visión sin dudar, al estilo de un capitán de Toman."
+            "Requisito": "LID 4",
+            "Efecto": "1 vez por combate: Aliados en 5m ganan **+1 daño** durante 2 posts.",
+            "Descripción": "Tu voz eleva la moral, como Draken motivando a Toman en una reyerta masiva."
         },
         {
             "Nombre": "Ojo para la Debilidad",
             "Tipo": "Social",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / LOG 3 / AST 2",
-            "Efecto": "En una negociación o confrontación verbal, identificas una debilidad del oponente y la explotas narrativamente para ganar concesiones.",
-            "Descripción": "Tu lógica analítica combinada con astucia te hace leer a la gente como un libro abierto en las calles de Akihabara, detectando mentiras y presionando donde duele."
+            "Requisito": "LOG 3 / AST 2",
+            "Efecto": "1 vez por escena social: Reduce **2 puntos** del atributo principal del oponente durante 2 posts.",
+            "Descripción": "Lees al enemigo como un libro, explotando grietas en su voluntad."
         },
         {
             "Nombre": "Juramento de Lealtad",
             "Tipo": "Social",
+            "Nivel_Minimo": 3,
             "Rareza": "Común",
-            "Requisito": "Nivel 3 / LID 3 / ESP 2",
-            "Efecto": "En un post, fortaleces la lealtad de un seguidor o aliado, haciendo que resista intentos de traición o intimidación en la escena.",
-            "Descripción": "Tu liderazgo y espíritu crean vínculos inquebrantables, como un jefe de pandilla sellando un pacto en una azotea de Tokio, donde las palabras pesan más que los puños."
+            "Requisito": "LID 3 / ESP 2",
+            "Efecto": "Seguidores reclutados tienen **+2 lealtad permanente** (máx 10).",
+            "Descripción": "Tus palabras crean lazos inquebrantables, imposibles de romper por rivales."
         },
         {
             "Nombre": "Manos Rápidas",
             "Tipo": "Oficio",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / AST 4",
-            "Efecto": "En una escena de robo o sigilo, describes hurtar un objeto pequeño sin ser detectado, agregando un elemento útil a tu inventario narrativo.",
-            "Descripción": "Eres un ladrón callejero experto en los mercados de Ueno, usando astucia para deslizarte entre la multitud y tomar lo que necesitas sin dejar rastro."
+            "Requisito": "AST 4",
+            "Efecto": "1 vez por escena: Robas un objeto de hasta **10.000 yenes** sin riesgo de detección.",
+            "Descripción": "Tus dedos son fantasmas en los mercados negros de Ueno."
         },
         {
             "Nombre": "Mecánico Callejero",
             "Tipo": "Oficio",
+            "Nivel_Minimo": 2,
             "Rareza": "Común",
-            "Requisito": "Nivel 2 / LOG 4",
-            "Efecto": "En un post, reparas o saboteas un vehículo o mecanismo simple, alterando la movilidad o el entorno de la escena a tu favor.",
-            "Descripción": "Tu lógica te permite improvisar con herramientas en garajes improvisados de Yokohama, como un pandillero arreglando una moto para escapar de la policía."
+            "Requisito": "LOG 4",
+            "Efecto": "Vehículos que modificas tienen **+10 PS** permanentes.",
+            "Descripción": "Conviertes chatarras en bestias, como los mecánicos de Black Dragon."
         },
         {
             "Nombre": "Oído en las Calles",
             "Tipo": "Oficio",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / AST 3 / LOG 2",
-            "Efecto": "En una investigación callejera, obtienes rumor o pista narrativa de contactos underground, avanzando la trama sin esfuerzo.",
-            "Descripción": "Combina astucia y lógica para escuchar los susurros en los callejones de Shinjuku, como un espía de banda recopilando intel sobre movimientos rivales."
+            "Requisito": "AST 3 / LOG 2",
+            "Efecto": "1 vez por día: Obtienes **1 pista concreta** de alta calidad de tus contactos.",
+            "Descripción": "Las calles susurran para ti en Shinjuku."
         },
         {
             "Nombre": "Curandero Improvisado",
             "Tipo": "Oficio",
+            "Nivel_Minimo": 3,
             "Rareza": "Común",
-            "Requisito": "Nivel 3 / ESP 3 / LOG 2",
-            "Efecto": "En un post post-combate, describes curar heridas menores de ti o un aliado, permitiendo continuar la escena sin debilidades graves.",
-            "Descripción": "Tu espíritu y lógica te hacen usar recursos callejeros para vendar y estabilizar, como un miembro de pandilla atendiendo a su equipo tras una reyerta en Ikebukuro."
+            "Requisito": "ESP 3 / LOG 2",
+            "Efecto": "1 vez por día: Recupera **10 PS** a ti o un aliado.",
+            "Descripción": "Usas trapos y voluntad para mantener vivo al crew después de la masacre."
         },
         {
             "Nombre": "Adaptación Urbana",
             "Tipo": "Utilidad",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / COR 3",
-            "Efecto": "En una escena de persecución o escape, usas el entorno urbano para ganar ventaja narrativa, como saltar vallas o esconderte en multitudes.",
-            "Descripción": "Tu coraje te impulsa a navegar las calles de Tokio como un nativo, evadiendo peligros con movimientos audaces que otros no se atreverían."
+            "Requisito": "COR 3",
+            "Efecto": "**+2 COR permanente** solo en entornos urbanos (calles, edificios).",
+            "Descripción": "Tokio es tu patio de juegos mortal."
         },
         {
             "Nombre": "Voluntad de Acero",
             "Tipo": "Utilidad",
+            "Nivel_Minimo": 2,
             "Rareza": "Común",
-            "Requisito": "Nivel 2 / ESP 4",
-            "Efecto": "En un post de presión extrema, resistes efectos narrativos de miedo o dolor, manteniendo tu compostura y acciones sin interrupciones.",
-            "Descripción": "Tu espíritu te hace inquebrantable ante amenazas, como un superviviente de pandilla ignorando intimidaciones en una confrontación tensa."
+            "Requisito": "ESP 4",
+            "Efecto": "1 vez por combate: Ignoras completamente **5 daño** del próximo ataque.",
+            "Descripción": "Tu espíritu rechaza el dolor como un Oni menor."
         },
         {
             "Nombre": "Plan B Rápido",
             "Tipo": "Utilidad",
+            "Nivel_Minimo": 1,
             "Rareza": "Común",
-            "Requisito": "Nivel 1 / LOG 3",
-            "Efecto": "Cuando un plan falla en un post, improvisas una alternativa narrativa lógica que salva la situación parcialmente.",
-            "Descripción": "Tu lógica te permite repensar sobre la marcha en las caóticas calles de Kabukicho, convirtiendo desastres en oportunidades como un estratega callejero."
+            "Requisito": "LOG 3",
+            "Efecto": "1 vez por escena: Si fallas una acción, repítela con **+2** a tu atributo relevante.",
+            "Descripción": "Siempre tienes una salida en el caos de Kabukicho."
         }
     ]
 }
