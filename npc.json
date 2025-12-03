@@ -1,154 +1,27 @@
-{
-    "npcs": [
-        {
-            "Rareza": "Común",
-            "Distrito": "Akihabara",
-            "Especialidad_Principal": "Mecánica",
-            "Afiliación_Actual": "Independiente",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Yuki Tanaka (田中 雪)",
-                "Edad": 22,
-                "Género": "Femenino",
-                "Altura": "1.65m",
-                "Ocupación_Actual": "Mecánica de motos",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/0NjSoTx.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/3BNc4O1.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Yuki es una joven mecánica de cabello turquesa en coletas, con pecas y ojos celestes. Viste mono de trabajo manchado de grasa y siempre lleva su cinturón de herramientas. Es directa y sarcástica, territorial con su taller pero leal una vez que confía en alguien.\n\nCreció en el taller de su padre en Akihabara, quien le enseñó mecánica antes de morir en un 'accidente' cuando se negó a trabajar para yakuza. Desde entonces opera sola, rechazando afiliarse a bandas pero haciendo trabajos freelance. Busca protección sin perder su independencia.",
-            "Atributos_Especializados": "Sin atributos formales como seguidor Común. Narrativamente es competente en mecánica pero inútil en combate.",
-            "Especialidades": "★★ Mecánica (+4 a reparación/modificación de vehículos)\n\nYuki repara motos rápido y conoce vendedores de piezas del mercado gris.",
-            "Beneficio_Pasivo": "**'Mantenimiento Gratis'**: Todos los vehículos de tu pandilla reciben mantenimiento gratuito cada semana, previniendo fallos mecánicos.",
-            "Habilidad_Especial": "Ninguna. Puede usar herramientas como armas improvisadas si es absolutamente necesario.",
-            "Metodos_Reclutamiento": "**A) PROTECCIÓN**: Derrota a 5-8 miembros de banda que la extorsionan. Reclutamiento automático. Lealtad inicial: 6.\n\n**B) PAGO → RECLUTAMIENTO**: Contrata sus servicios 3 veces pagando bien (¥80,000+). Ofrece protección permanente. Tirada: Liderazgo + Astucia + 1d20 vs 15. Lealtad inicial: 5.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Independencia, Respeto por el oficio, Pago justo.\n\n**GANAR**: Defenderla (+1), Bonos extras (+1), Expandir taller (+2), Libertad para rechazar trabajos (+1).\n\n**PERDER**: Tratarla mal (-1), Exigir trabajos criminales (-1), No pagar a tiempo (-2), Trabajos con vehículos robados (-3).",
-            "key": "Yuki_Tanaka"
-        },
-        {
-            "Rareza": "Común",
-            "Distrito": "Shinjuku",
-            "Especialidad_Principal": "Conducción",
-            "Afiliación_Actual": "Ex-Miembro",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Takeshi Kuroda (黒田 武)",
-                "Edad": 24,
-                "Género": "Masculino",
-                "Altura": "1.82m",
-                "Ocupación_Actual": "Conductor freelance",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/LLMIliX.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/qgjZlip.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Takeshi es un hombre imponente de complexión robusta. Viste chaqueta bomber negra, pantalones cargo y botas militares. Siempre lleva audífonos colgando del cuello.\n\nEs el 'gigante gentil' - reservado pero con corazón decente. Hombre de pocas palabras que prefiere acciones. Ex-conductor estrella de 'Los Titanes' hasta que lo traicionaron usándolo como chivo expiatorio hace 8 meses. Pasó 3 meses en prisión. Ahora trabaja solo, desconfiado pero necesitando dinero para pagar deudas legales.",
-            "Atributos_Especializados": "Sin atributos formales. Narrativamente: Coraje 4, puede defenderse básicamente pero prefiere evitar combate.",
-            "Especialidades": "★★ Conducción (+4 a conducción/persecuciones)\n★ Estrategia (+2 a planificación de rutas)\n\nConoce cada calle en Shinjuku y puede planear rutas que evitan cámaras y patrullas.",
-            "Beneficio_Pasivo": "**'Conductor de Escape'**: Una vez por misión, garantiza escape exitoso automático si hay vehículo y ruta disponible. No requiere tirada.",
-            "Habilidad_Especial": "Ninguna. Puede defenderse básicamente en combate pero no es luchador.",
-            "Metodos_Reclutamiento": "**A) PAGAR DEUDA**: Paga sus ¥400,000 en deudas legales sin pedir nada. Tirada: Liderazgo + 1d20 vs 13 (+2 si mencionas lealtad). Lealtad inicial: 7.\n\n**B) VENGANZA**: Ayúdalo a confrontar a 'Los Titanes' que lo traicionaron. Reclutamiento automático. Lealtad inicial: 7.\n\n**C) TRABAJO CONTINUO**: Contrátalo 5 veces pagando bien (¥50,000+). Ofrece posición permanente. Tirada: Liderazgo + 1d20 vs 14. Lealtad inicial: 6.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Lealtad absoluta, Proteger inocentes, Honor de palabra.\n\n**GANAR**: Rechazar traicionarlo (+2), Defender su reputación (+1), Incluirlo en decisiones (+1), Bonos (+1).\n\n**PERDER**: Usar chivo expiatorio (-4), Romper promesas (-2), Lastimar inocentes (-2), Cuestionar su coraje (-1).",
-            "key": "Takeshi_Kuroda"
-        },
-        {
-            "Rareza": "Común",
-            "Distrito": "Roppongi",
-            "Especialidad_Principal": "Negociación",
-            "Afiliación_Actual": "Buscando Banda",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Hana Miyamoto (宮本 花)",
-                "Edad": 21,
-                "Género": "Femenino",
-                "Altura": "1.68m",
-                "Ocupación_Actual": "Hostess / Intermediaria",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/ca2fs7O.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/y73vMiN.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Hana es elegante, con cabello negro largo y presencia refinada. Viste con sofisticación discreta. Siempre lleva bolso con tarjetas de visita y libreta de contactos.\n\nEncantadora en público, calculadora en privado. Trabaja como hostess pero usa su posición para recopilar información. Hija de gerente de club asesinado en fuego cruzado sin consecuencias. Busca organización que pueda protegerla sin explotarla.",
-            "Atributos_Especializados": "Sin atributos formales. Narrativamente: Astucia 4, Liderazgo 3. Nula en combate.",
-            "Especialidades": "★★ Negociación (+4 a acuerdos y mediación)\n★ Contactos (+2 para encontrar personas)\n\nConoce gerentes, tenientes yakuza y ejecutivos. Puede conseguir reuniones en 24 horas.",
-            "Beneficio_Pasivo": "**'Intermediaria'**: Una vez cada dos semanas, facilita reunión con NPC importante o añade +2 a negociación/reclutamiento donde participa.",
-            "Habilidad_Especial": "Ninguna. Evita violencia completamente. Forzarla a combate puede causar deserción.",
-            "Metodos_Reclutamiento": "**A) RESCATE**: Protégela de yakuza que la culpa por acuerdo fallido. Reclutamiento automático. Lealtad inicial: 6.\n\n**B) REPUTACIÓN**: Tirada: Liderazgo + 1d20 vs 16 (+2 si Reputación 10+). Lealtad inicial: 5.\n\n**C) CONTRATO**: Contrátala 4 veces (¥60,000-100,000). Ofrece posición. Tirada: Liderazgo + 1d20 vs 14. Lealtad inicial: 5.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Discreción absoluta, Autonomía, Compensación justa, No-violencia.\n\n**GANAR**: Bonos (+1), Defender reputación (+2), Introducir contactos (+1), Seguir consejo (+1).\n\n**PERDER**: Mentirle (-3), Violencia inesperada (-2), Forzar combate (-4), No pagar (-2), Revelar info (-3).",
-            "key": "Hana_Miyamoto"
-        },
-        {
-            "Rareza": "Común",
-            "Distrito": "Shibuya",
-            "Especialidad_Principal": "Combate Callejero",
-            "Afiliación_Actual": "Banda Menor",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Kenji 'Dragon Fist' Ryusei (龍星 健二)",
-                "Edad": 20,
-                "Género": "Masculino",
-                "Altura": "1.75m",
-                "Ocupación_Actual": "Peleador / Vendedor de takoyaki",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/Oc3BW01.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/rCn8jai.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Cabello rubio platino con puntas rojas en púas. Tatuaje de dragón en brazo derecho. Viste chaleco de cuero sin mangas, camiseta rasgada, jeans con cadenas y botas militares.\n\nEl 'idiota noble' - puro corazón, cerebro simple, puños letales. Vive por peleas justas, takoyaki y proteger débiles. No entiende estrategias complejas. Está en 'Shibuya Sharks' pero su líder es cobarde que intimida débiles. Busca líder que pelee en primera línea.",
-            "Atributos_Especializados": "Sin atributos formales. Narrativamente: Salvajismo 4, Coraje 4, Lógica 1, Astucia 1.",
-            "Especialidades": "★★ Combate Callejero (+4 a combate cuerpo a cuerpo)\n★ Intimidación (+2, apariencia + reputación)\n\nEstilo puro brawling sin técnica refinada pero resistencia increíble.",
-            "Beneficio_Pasivo": "**'Nunca Retrocede'**: Aliados en 5 metros ganan +1 a Coraje. Una vez por combate, si cae bajo 30% PS, recupera 10 PS y +3 a próximo ataque.",
-            "Habilidad_Especial": "**'Puño del Dragón'**: Si tiene menos de 50% PS y enemigo más de 50%, próximo ataque ignora 3 puntos de defensa.",
-            "Metodos_Reclutamiento": "**A) DUELO**: Desafíalo a pelea limpia. Si peleas honorablemente, reclutamiento automático. Lealtad inicial: 6.\n\n**B) PROTEGER INOCENTE**: Ayúdalo cuando 6+ pandilleros lo superan protegiendo civil. Reclutamiento automático. Lealtad inicial: 7.\n\n**C) DERROTA SU LÍDER**: Confronta al líder cobarde de Shibuya Sharks. Reclutamiento automático. Lealtad inicial: 6.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Honor en combate, Proteger inocentes, Líder fuerte.\n\n**GANAR**: Pelear en primera línea (+2), Defender su honor (+1), Proteger inocentes (+2), Vencer enemigos (+1).\n\n**PERDER**: Atacar por espalda (-2), Lastimar inocentes (-5), Enviarlo solo mientras te escondes (-3), Tácticas cobardes (-1).",
-            "key": "Kenji_Ryusei"
-        },
-        {
-            "Rareza": "Común",
-            "Distrito": "Harajuku",
-            "Especialidad_Principal": "Medicina",
-            "Afiliación_Actual": "Sin Banda",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Sakura 'Doc' Tanaka (田中 桜)",
-                "Edad": 23,
-                "Género": "Femenino",
-                "Altura": "1.58m",
-                "Ocupación_Actual": "Estudiante de enfermería",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/ujdB6HK.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/Cqz9bzf.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Pequeña, cabello rosa en bob, gafas redondas. Viste aesthetic Harajuku médico con chaqueta blanca customizada. Mochila enorme llena de kit médico.\n\nParece 'chica kawaii' pero tiene humor negro sobre heridas. Profesional absoluta trabajando pero torpe socialmente. Ha desarrollado distanciamiento emocional por ver tanto trauma. Trabaja freelance cobrando lo que pacientes pueden pagar. Busca banda que valore mantenerse vivos.",
-            "Atributos_Especializados": "Sin atributos formales. Narrativamente: Lógica 4, Astucia 3, Salvajismo 1.",
-            "Especialidades": "★★ Medicina (+4 a curación/estabilización)\n★ Sigilo (+2, apariencia inofensiva)\n\nPuede estabilizar heridas graves en condiciones subóptimas.",
-            "Beneficio_Pasivo": "**'Ángel del Callejón'**: Después de combates, tira 1d20+4 (Dif 12 = 1 aliado, 16 = 2, 20 = 3). Estabiliza aliados a 0 PS (recuperan 10 PS). Proporciona kit semanal para curar 20 PS totales.",
-            "Habilidad_Especial": "**'Puntos Vitales'**: Si forzada a defenderse, puede golpear punto de presión. Tirada única: Lógica vs Salvajismo. Éxito = enemigo Paralizado 1 post.",
-            "Metodos_Reclutamiento": "**A) RESCATE**: Protégela cuando banda rival ataca mientras trata herido. Reclutamiento automático. Lealtad inicial: 7.\n\n**B) SERVICIO**: Úsala 5 veces pagando bien (¥40,000-60,000). Ofrece posición (¥150,000/mes). Tirada: Liderazgo + 1d20 vs 13. Lealtad inicial: 5.\n\n**C) PAGAR DEUDA**: Paga sus ¥800,000 en deudas. Tirada: Liderazgo + 1d20 vs 12. Lealtad inicial: 7.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Juramento médico, No violencia, Respeto profesional.\n\n**GANAR**: Protegerla (+2), Financiar suministros (+1), Seguir consejo médico (+1), Agradecerle (+1).\n\n**PERDER**: Forzarla a lastimar (-5), Amenazarla (-3), Impedir tratar enemigos (-2), Ignorar consejo (-1).",
-            "key": "Sakura_Tanaka"
-        },
-        {
-            "Rareza": "Común",
-            "Distrito": "Harajuku",
-            "Especialidad_Principal": "Información",
-            "Afiliación_Actual": "Sin Banda",
-            "Datos_Basicos": {
-                "Nombre_Completo": "Riku Matsuda (松田 陸)",
-                "Edad": 19,
-                "Género": "Masculino",
-                "Altura": "1.70m",
-                "Ocupación_Actual": "Estudiante / Informante freelance",
-                "Ranuras_Ocupadas": 1,
-                "Lealtad_Base": 5
-            },
-            "Imagen_Card": "https://i.imgur.com/pWpFyYV.jpeg",
-            "Imagen_Modal": "https://i.imgur.com/it8dqn1.jpeg",
-            "Descripcion_Fisica_Personalidad_Historia": "Delgado, cabello negro desordenado, ojeras pronunciadas. Viste hoodies grises o negros. Mochila raída con laptop vieja y dispositivos electrónicos.\n\nNervioso y parlanchín cuando estresado. Socialmente torpe pero se transforma hablando de información. Tiene ética flexible pero no vende información que mate inocentes. Cobarde físicamente pero tiene coraje moral. Estudia Ciencias de la Información, trabaja como informante para pagar matrícula. Opera desde cafés usando VPNs. Busca protección.",
-            "Atributos_Especializados": "Sin atributos formales. Narrativamente: Lógica 4, Astucia 3, Salvajismo 1.",
-            "Especialidades": "★★ Información (+4 a recopilación/análisis)\n★ Tecnología (+2 a dispositivos/investigación digital)\n\nRed de contactos menores, acceso a foros underground, experto en búsqueda pública.",
-            "Beneficio_Pasivo": "**'Red de Chismes'**: Cada lunes automáticamente proporciona 1 pieza de información útil sobre Harajuku y distritos adyacentes (80% precisa).",
-            "Habilidad_Especial": "Ninguna. En situaciones violentas se esconde, huye o queda paralizado.",
-            "Metodos_Reclutamiento": "**A) PROTECCIÓN**: Protégelo de banda que lo busca. Derrota 4-6 matones. Reclutamiento automático. Lealtad inicial: 6.\n\n**B) COMPRA**: Cómprale info 3 veces (¥30,000-50,000) tratándolo con respeto. Ofrece protección. Tirada: Liderazgo + Astucia + 1d20 vs 14. Lealtad inicial: 5.\n\n**C) RECUPERAR LAPTOP**: Recupera su laptop robada con datos. Reclutamiento automático. Lealtad inicial: 7.",
-            "Valores_Fundamentales_Lealtad": "**VALORES**: Protección de fuentes, No matar inocentes, Compensación justa.\n\n**GANAR**: Protegerlo (+1), Bonos (+1), Proteger fuentes (+2), Financiar equipo (+1).\n\n**PERDER**: Forzar revelar fuentes (-3), No pagar (-2), Causar muertes (-3 a -5), Exponerlo (-4).",
-            "key": "Riku_Matsuda"
-        }
-    ]
-}
+[
+  {
+    "id": 1,
+    "nombre": "Monkey D. Luffy",
+    "rango": "yonko",
+    "faccion": "piratas",
+    "imagen": "URL...",
+    "imagenMiniatura": "URL...",
+    "edad": "19 años",
+    "recompensa": "3.000.000.000 Berries"
+  },
+  {
+    "id": 2,
+    "nombre": "Smoker",
+    "rango": "vicealmirante",
+    "faccion": "marina",
+    "imagen": "URL...",
+    "edad": "36 años"
+  },
+  {
+    "id": 3,
+    "nombre": "Sabo",
+    "rango": "comandante",
+    "faccion": "revolucionarios",
+    "imagen": "URL..."
+  }
+]
