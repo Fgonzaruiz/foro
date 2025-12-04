@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nombre": "SANTORYU (Estilo de las Tres Espadas)",
+    "categoria": "Estilo Marcial Puro (Esgrima)",
+    "filosofia": "El Santoryu es un estilo de esgrima desarrollado por Roronoa Zoro que empuña tres espadas simultáneamente: una en cada mano y una tercera sostenida con la boca. Combina fuerza bruta devastadora con técnica precisa, ejecutando cortes imposibles desde ángulos impredecibles. El estilo enfatiza el corte absoluto: 'Todo puede ser cortado si encuentras su respiración.'",
+    "requisitos": "Arquetipo: Espadachín (primario o secundario). Alternativa: Talentos 'Iniciación en Esgrima I + II' + Talento exclusivo 'Entrenamiento en Santoryu' (disponible nivel 10+, requiere Poder 10, Ímpetu 8)",
+    "caracteristicas": "Énfasis en cortes múltiples simultáneos desde ángulos divergentes. Técnicas que combinan Potencia (cortes devastadores) y Velocidad (ataques múltiples). Requiere empuñar tres espadas (limitación de equipo). Escalabilidad con Poder e Ímpetu."
+  },
+  {
+    "id": 2,
+    "nombre": "ROKUSHIKI (Seis Formas)",
+    "categoria": "Sistema Marcial del Gobierno Mundial",
+    "filosofia": "Arte marcial secreto enseñado exclusivamente a agentes de élite del Gobierno Mundial (Marines de alto rango, CP0-CP9). Consiste en seis técnicas que llevan el cuerpo humano más allá de sus límites naturales, otorgando capacidades sobrehumanas sin necesidad de Frutas del Diablo. Los maestros del Rokushiki son considerados armas vivientes.",
+    "requisitos": "Facción: Marines (Capitán+) o CP0-9. Alternativa: Talento 'Entrenamiento en Rokushiki' (nivel 8+, requiere contacto con instructor autorizado, Stats: Poder 8, Velocidad 8, Resistencia 10)",
+    "caracteristicas": "Sistema modular (aprende técnicas individuales: Soru, Geppo, Tekkai, Shigan, Rankyaku, Kami-e). Énfasis en superar limitaciones físicas humanas. Técnicas combinables (Ej: Soru + Tekkai = Tekkai Dama). Acceso limitado por facción o narrativa."
+  },
+  {
+    "id": 3,
+    "nombre": "BLACK LEG STYLE (Pierna Negra)",
+    "categoria": "Estilo Marcial Puro (Kickboxing/Savate)",
+    "filosofia": "Estilo de combate desarrollado por los cocineros guerreros del Baratie que prohíbe absolutamente el uso de las manos en batalla (las manos son sagradas para un cocinero). Combina patadas acrobáticas devastadoras con movilidad superior. El estilo evolucionó para incluir técnicas incendiarias (Diable Jambe) que literalmente encienden las piernas del usuario.",
+    "requisitos": "Arquetipo: Luchador (primario o secundario) o Cocinero con Talento 'Iniciación en Artes Marciales'. Prohibición: No puedes usar armas de mano mientras uses técnicas de Black Leg",
+    "caracteristicas": "Exclusivamente patadas y técnicas de pierna. Alta movilidad y acrobacias. Escalable con Poder y Velocidad. Técnicas avanzadas incorporan fuego (requieren entrenamiento especial). Sinergias con talentos de cocina (resistencia al calor por trabajar en cocinas)."
+  },
+  {
+    "id": 4,
+    "nombre": "KARATE GYOJIN (Karate Tritón)",
+    "categoria": "Arte Marcial Racial (Gyojin/Sirenas)",
+    "filosofia": "Arte marcial antiguo que manipula el agua como arma, tratándola como extensión del propio cuerpo. Los Gyojin, con su fuerza natural diez veces superior a los humanos y su dominio acuático, utilizan este estilo para proyectar agua con fuerza devastadora, crear ondas de choque y luchar con ventaja absoluta bajo el mar.",
+    "requisitos": "Raza: Gyojin o Sirena (obligatorio). Nivel 3+. Stats mínimos: Poder 8",
+    "caracteristicas": "Manipulación de agua como proyectiles o ondas. +50% efectividad bajo el agua. Técnicas de largo alcance. Escalable con Poder. Inefectivo en zonas sin agua (desiertos, etc). Puede apagar fuego y afectar usuarios de Frutas del Diablo indirectamente."
+  }
+]
