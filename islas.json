@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "nombre": "Dawn Island",
+    "nombreAlterno": "Isla del Amanecer",
+    "mar": "East Blue",
+    "corriente": null,
+    "tipo": "Isla Normal",
+    "coordenadas": {
+      "x": 120,
+      "y": 45
+    },
+    "descripcion": "Isla del East Blue donde nació Monkey D. Luffy. Hogar de la Villa Foosha y el Monte Colubo.",
+    "caracteristicas": [
+      "Villa Foosha",
+      "Monte Colubo",
+      "Reino de Goa"
+    ],
+    "peligrosidad": "Baja",
+    "clima": "Templado",
+    "poblacion": "Media",
+    "imagen": "https://example.com/dawn-island.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Loguetown",
+    "nombreAlterno": "Ciudad del Inicio y el Fin",
+    "mar": "East Blue",
+    "corriente": null,
+    "tipo": "Ciudad Portuaria",
+    "coordenadas": {
+      "x": 180,
+      "y": 50
+    },
+    "descripcion": "Última isla antes de entrar a la Grand Line. Lugar donde fue ejecutado Gol D. Roger.",
+    "caracteristicas": [
+      "Base de la Marina",
+      "Entrada a Grand Line",
+      "Plaza de Ejecución"
+    ],
+    "peligrosidad": "Media",
+    "clima": "Variable",
+    "poblacion": "Alta",
+    "imagen": "https://example.com/loguetown.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Reverse Mountain",
+    "nombreAlterno": "Montaña Inversa",
+    "mar": "Red Line",
+    "corriente": "Entrada Grand Line",
+    "tipo": "Punto de Entrada",
+    "coordenadas": {
+      "x": 200,
+      "y": 100
+    },
+    "descripcion": "Entrada a la Grand Line. Montaña donde convergen las corrientes de los cuatro Blues.",
+    "caracteristicas": [
+      "Corrientes convergentes",
+      "Entrada única",
+      "Extremadamente peligroso"
+    ],
+    "peligrosidad": "Muy Alta",
+    "clima": "Extremo",
+    "poblacion": "Ninguna",
+    "imagen": "https://example.com/reverse-mountain.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Whiskey Peak",
+    "nombreAlterno": "Pico del Whiskey",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Isla Normal",
+    "coordenadas": {
+      "x": 220,
+      "y": 110
+    },
+    "descripcion": "Primera isla de la Grand Line. Conocida por sus extrañas formaciones rocosas en forma de cactus.",
+    "caracteristicas": [
+      "Pueblo de cazarrecompensas",
+      "Formaciones de cactus",
+      "Trampa para piratas novatos"
+    ],
+    "peligrosidad": "Media-Alta",
+    "clima": "Desértico",
+    "poblacion": "Baja",
+    "imagen": "https://example.com/whiskey-peak.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Alabasta",
+    "nombreAlterno": "Reino de Alabasta",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Reino",
+    "coordenadas": {
+      "x": 250,
+      "y": 115
+    },
+    "descripcion": "Gran reino desértico en la Grand Line. Uno de los 20 reinos fundadores del Gobierno Mundial.",
+    "caracteristicas": [
+      "Reino del desierto",
+      "Palacio Real",
+      "Ciudad Alubarna",
+      "Puerto Nanohana"
+    ],
+    "peligrosidad": "Alta",
+    "clima": "Desértico extremo",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/alabasta.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Skypiea",
+    "nombreAlterno": "Isla del Cielo",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Isla Celestial",
+    "coordenadas": {
+      "x": 280,
+      "y": 500
+    },
+    "descripcion": "Isla flotante a 10.000 metros sobre el nivel del mar. Tierra sagrada de los Shandorianos.",
+    "caracteristicas": [
+      "Isla flotante",
+      "Dial technology",
+      "Ciudad Dorada",
+      "Campanario"
+    ],
+    "peligrosidad": "Muy Alta",
+    "clima": "Nuboso",
+    "poblacion": "Media",
+    "imagen": "https://example.com/skypiea.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Water 7",
+    "nombreAlterno": "Ciudad del Agua",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Ciudad Portuaria",
+    "coordenadas": {
+      "x": 320,
+      "y": 120
+    },
+    "descripcion": "Ciudad industrial construida sobre el agua. Famosa por sus maestros carpinteros navales.",
+    "caracteristicas": [
+      "Galley-La Company",
+      "Aqua Laguna",
+      "Canales de agua",
+      "Bull gigante"
+    ],
+    "peligrosidad": "Media",
+    "clima": "Oceánico",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/water7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Enies Lobby",
+    "nombreAlterno": "Isla Judicial",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Instalación Gubernamental",
+    "coordenadas": {
+      "x": 340,
+      "y": 125
+    },
+    "descripcion": "Isla judicial del Gobierno Mundial. Sede del Tribunal de Justicia, donde nunca cae la noche.",
+    "caracteristicas": [
+      "Día eterno",
+      "Torre de Justicia",
+      "Puertas de Justicia",
+      "Base CP9"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Siempre día",
+    "poblacion": "Alta (militares)",
+    "imagen": "https://example.com/enies-lobby.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Thriller Bark",
+    "nombreAlterno": "Barco Fantasma",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Isla-Barco",
+    "coordenadas": {
+      "x": 360,
+      "y": 130
+    },
+    "descripcion": "El barco más grande del mundo convertido en isla. Hogar de Gecko Moria y sus zombies.",
+    "caracteristicas": [
+      "Barco gigante",
+      "Mansión embrujada",
+      "Ejército de zombies",
+      "Niebla perpetua"
+    ],
+    "peligrosidad": "Muy Alta",
+    "clima": "Neblinoso oscuro",
+    "poblacion": "Zombies",
+    "imagen": "https://example.com/thriller-bark.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Sabaody Archipelago",
+    "nombreAlterno": "Archipiélago Sabaody",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Archipiélago",
+    "coordenadas": {
+      "x": 380,
+      "y": 135
+    },
+    "descripcion": "Archipiélago de árboles manglar cerca de la Red Line. Última parada antes del Nuevo Mundo.",
+    "caracteristicas": [
+      "Árboles Yarukiman",
+      "Burbujas naturales",
+      "Casa de subastas",
+      "Parque de atracciones"
+    ],
+    "peligrosidad": "Muy Alta",
+    "clima": "Tropical",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/sabaody.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Amazon Lily",
+    "nombreAlterno": "Isla de las Mujeres",
+    "mar": "Calm Belt",
+    "corriente": null,
+    "tipo": "Reino Aislado",
+    "coordenadas": {
+      "x": 350,
+      "y": 80
+    },
+    "descripcion": "Reino de las guerreras Kuja en el Calm Belt. Prohibida la entrada de hombres.",
+    "caracteristicas": [
+      "Solo mujeres",
+      "Guerreras Kuja",
+      "Palacio real",
+      "Serpientes gigantes"
+    ],
+    "peligrosidad": "Extrema para hombres",
+    "clima": "Tropical",
+    "poblacion": "Media",
+    "imagen": "https://example.com/amazon-lily.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Impel Down",
+    "nombreAlterno": "Gran Prisión",
+    "mar": "Calm Belt",
+    "corriente": null,
+    "tipo": "Prisión",
+    "coordenadas": {
+      "x": 390,
+      "y": 140
+    },
+    "descripcion": "La prisión submarina más grande del mundo. Dividida en 6 niveles de tortura.",
+    "caracteristicas": [
+      "Prisión submarina",
+      "6 niveles de infierno",
+      "Reyes Marinos",
+      "Fortaleza inexpugnable"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Variable por nivel",
+    "poblacion": "Prisioneros",
+    "imagen": "https://example.com/impel-down.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Marineford",
+    "nombreAlterno": "Cuartel General de la Marina",
+    "mar": "Grand Line",
+    "corriente": "Paraíso",
+    "tipo": "Base Militar",
+    "coordenadas": {
+      "x": 395,
+      "y": 145
+    },
+    "descripcion": "Antigua sede del Cuartel General de la Marina. Escenario de la Guerra de Marineford.",
+    "caracteristicas": [
+      "Fortaleza marina",
+      "Plaza de ejecución",
+      "Base militar",
+      "Símbolo de justicia"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Oceánico",
+    "poblacion": "Muy Alta (militares)",
+    "imagen": "https://example.com/marineford.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Fishman Island",
+    "nombreAlterno": "Isla Gyojin",
+    "mar": "Grand Line",
+    "corriente": "Entrada Nuevo Mundo",
+    "tipo": "Isla Submarina",
+    "coordenadas": {
+      "x": 400,
+      "y": -200
+    },
+    "descripcion": "Isla submarina a 10.000 metros bajo el mar. Hogar de tritones y hombres-pez.",
+    "caracteristicas": [
+      "Isla submarina",
+      "Burbuja gigante",
+      "Palacio Ryugu",
+      "Bosque del Mar"
+    ],
+    "peligrosidad": "Alta",
+    "clima": "Submarino",
+    "poblacion": "Alta",
+    "imagen": "https://example.com/fishman-island.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Punk Hazard",
+    "nombreAlterno": "Isla del Peligro",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Isla Experimental",
+    "coordenadas": {
+      "x": 420,
+      "y": 150
+    },
+    "descripcion": "Isla dividida entre fuego y hielo. Antigua base de investigación del Gobierno Mundial.",
+    "caracteristicas": [
+      "Mitad fuego, mitad hielo",
+      "Laboratorio abandonado",
+      "Gas venenoso",
+      "Dragón artificial"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Fuego y Hielo",
+    "poblacion": "Muy Baja",
+    "imagen": "https://example.com/punk-hazard.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Dressrosa",
+    "nombreAlterno": "Reino de las Pasiones",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Reino",
+    "coordenadas": {
+      "x": 450,
+      "y": 155
+    },
+    "descripcion": "Reino tropical famoso por sus flores, comida y juguetes vivientes.",
+    "caracteristicas": [
+      "Coliseo Corrida",
+      "Fábrica de SMILE",
+      "Juguetes vivientes",
+      "Campos de girasoles"
+    ],
+    "peligrosidad": "Muy Alta",
+    "clima": "Tropical",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/dressrosa.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Zou",
+    "nombreAlterno": "Isla Elefante",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Isla Móvil",
+    "coordenadas": {
+      "x": 480,
+      "y": 160
+    },
+    "descripcion": "Isla situada sobre el lomo de un elefante milenario de 1000 años. Hogar de la tribu Mink.",
+    "caracteristicas": [
+      "Elefante gigante andante",
+      "Tribu Mink",
+      "Bosque de ballena",
+      "Road Poneglyph"
+    ],
+    "peligrosidad": "Alta",
+    "clima": "Tropical elevado",
+    "poblacion": "Media",
+    "imagen": "https://example.com/zou.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Whole Cake Island",
+    "nombreAlterno": "Isla del Pastel Entero",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Reino",
+    "coordenadas": {
+      "x": 510,
+      "y": 165
+    },
+    "descripcion": "Territorio de Big Mom. Isla hecha completamente de dulces y comida.",
+    "caracteristicas": [
+      "Todo es comestible",
+      "Château de Big Mom",
+      "Homies vivientes",
+      "Seducing Woods"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Dulce",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/whole-cake.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Wano Country",
+    "nombreAlterno": "País de Wano",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Nación Aislada",
+    "coordenadas": {
+      "x": 540,
+      "y": 170
+    },
+    "descripcion": "País cerrado con estética japonesa feudal. Tierra de samuráis y forjadores de espadas.",
+    "caracteristicas": [
+      "Cascadas gigantes",
+      "Región de la Capital",
+      "Monte Fuji (Onigashima)",
+      "Samuráis legendarios"
+    ],
+    "peligrosidad": "Extrema",
+    "clima": "Variado por región",
+    "poblacion": "Muy Alta",
+    "imagen": "https://example.com/wano.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Laugh Tale",
+    "nombreAlterno": "Isla Final",
+    "mar": "Grand Line",
+    "corriente": "Nuevo Mundo",
+    "tipo": "Isla Legendaria",
+    "coordenadas": {
+      "x": 600,
+      "y": 180
+    },
+    "descripcion": "Última isla de la Grand Line. Ubicación del One Piece. Solo alcanzable con los 4 Road Poneglyphs.",
+    "caracteristicas": [
+      "Ubicación del One Piece",
+      "Isla legendaria",
+      "Verdadera historia",
+      "Fin de Grand Line"
+    ],
+    "peligrosidad": "Desconocida",
+    "clima": "Desconocido",
+    "poblacion": "Desconocida",
+    "imagen": "https://example.com/laugh-tale.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Cocoyasi Village",
+    "nombreAlterno": "Villa Cocoyasi",
+    "mar": "East Blue",
+    "corriente": null,
+    "tipo": "Villa",
+    "coordenadas": {
+      "x": 140,
+      "y": 40
+    },
+    "descripcion": "Villa del East Blue. Hogar de Nami y dominada anteriormente por los Piratas de Arlong.",
+    "caracteristicas": [
+      "Plantación de mandarinas",
+      "Villa pacífica",
+      "Arlong Park (destruido)"
+    ],
+    "peligrosidad": "Baja",
+    "clima": "Templado",
+    "poblacion": "Baja",
+    "imagen": "https://example.com/cocoyasi.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Syrup Village",
+    "nombreAlterno": "Villa Syrup",
+    "mar": "East Blue",
+    "corriente": null,
+    "tipo": "Villa",
+    "coordenadas": {
+      "x": 160,
+      "y": 48
+    },
+    "descripcion": "Villa tranquila del East Blue. Hogar de Usopp y la rica familia de Kaya.",
+    "caracteristicas": [
+      "Mansión de Kaya",
+      "Astillero",
+      "Costa rocosa"
+    ],
+    "peligrosidad": "Baja",
+    "clima": "Templado",
+    "poblacion": "Baja",
+    "imagen": "https://example.com/syrup.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Baratie",
+    "nombreAlterno": "Restaurante Flotante",
+    "mar": "East Blue",
+    "corriente": null,
+    "tipo": "Restaurante Barco",
+    "coordenadas": {
+      "x": 170,
+      "y": 52
+    },
+    "descripcion": "Famoso restaurante flotante en forma de pez. Lugar donde Sanji trabajaba como cocinero.",
+    "caracteristicas": [
+      "Restaurante de lujo",
+      "Barco con forma de pez",
+      "Cocineros guerreros"
+    ],
+    "peligrosidad": "Baja",
+    "clima": "Oceánico",
+    "poblacion": "Personal del restaurante",
+    "imagen": "https://example.com/baratie.jpg"
+  }
+]
