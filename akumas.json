@@ -461,4 +461,40 @@
         "Burst damage (Entei + combos para eliminar objetivos rápidamente)"
       ]
     },
-    "usuariosCanonicos
+    "usuariosCanonicos": {
+      "usuarios": ["Portgas D. Ace (†)", "Sabo"],
+      "hazanas": [
+        "Ace: Comandante División 2 de Barbablanca, combate parejo contra Aokiji",
+        "Ace: Derrota de Baroque Works casi completo solo",
+        "Sabo: Destrucción del Coliseo Corrida, derrota del Vice-Almirante Bastille",
+        "Sabo: Combate equilibrado contra Almirante Fujitora"
+      ],
+      "inspiracion": "Ace demostró el potencial devastador en área. Sabo mostró refinamiento técnico y creatividad con Ryusoken (Garra Dragón)."
+    },
+    "restricciones": {
+      "reglas": [
+        "La intangibilidad NO funciona contra Haki de Armadura de ningún nivel",
+        "MaguMagu no Mi (Magma) supera SIEMPRE a Mera Mera no Mi",
+"El fuego requiere oxígeno: ineficaz bajo agua o en vacío",
+"Las Llamas Eternas (Despertar) requieren concentración constante o consumen HP"
+],
+"interaccionesEspeciales": [
+"Puede absorber fuego externo para recuperar 10% Tenacidad por fuente",
+"Immune a explosiones y calor, pero NO a la fuerza cinética de explosiones con Haki",
+"El Despertar convierte materiales en 'fuego sólido' que permanece hasta desactivarse"
+],
+"advertencias": [
+"Esta fruta causa COLATERAL MASIVO. Ciudades pueden incendiarse.",
+"El agua de mar no solo debilita, APAGA las llamas activas inmediatamente.",
+"Fushichō (resurrección) solo puede usarse 1 vez por batalla. No es spam.",
+"Dai Entei es un arma de destrucción masiva. Requiere aprobación narrativa."
+],
+"requisitosNarrativos": [
+"Entei básico: Dominio de la forma elemental completa",
+"Llamas Eternas: Evento emocional traumático (ej: pérdida de aliado)",
+"Fushichō: Experiencia de muerte cercana previa + entrenamiento de 6 meses",
+"Dai Entei: Solo en batallas climáticas contra amenazas de nivel de arco"
+]
+}
+}
+]
