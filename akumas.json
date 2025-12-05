@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "nombreJapones": "Gomu Gomu no Mi",
+    "nombreEspanol": "Fruta Goma-Goma",
+    "tipo": "Paramecia",
+    "tier": "A",
+    "imagen": "https://example.com/gomu-gomu.jpg",
+    "habilidadPrincipal": {
+      "descripcion": "Transforma el cuerpo del usuario en goma elástica, otorgando inmunidad a impactos físicos contundentes y permitiendo estirar extremidades a voluntad.",
+      "transformacion": "Cuerpo completamente de goma",
+      "elementoControlado": "Elasticidad corporal",
+      "capacidadesFundamentales": [
+        "Estiramiento corporal extenso",
+        "Inmunidad a impactos contundentes",
+        "Resistencia a electricidad",
+        "Absorción de proyectiles físicos"
+      ]
+    },
+    "fortalezas": [
+      "Inmunidad total a ataques contundentes sin Haki",
+      "Inmunidad completa a rayos y electricidad",
+      "Versatilidad táctica extrema (alcance, movilidad, creatividad)",
+      "Sinergia perfecta con Haki del Conquistador (Gear 4)",
+      "Capacidad de absorber y redirigir impactos",
+      "Excelente para combate a media y larga distancia"
+    ],
+    "debilidades": [
+      "Debilidades estándar: agua de mar, Kairoseki, Haki de Armadura",
+      "Vulnerable a cortes y perforaciones",
+      "Extremadamente vulnerable al fuego y calor intenso",
+      "El estiramiento excesivo causa dolor y fatiga",
+      "Requiere creatividad constante para maximizar potencial",
+      "Gears avanzados drenan Tenacidad rápidamente"
+    ],
+    "progresion": {
+      "nivel1": {
+        "nombre": "Novato",
+        "potencial": "30%",
+        "capacidades": "Estiramiento básico de extremidades hasta 10 metros, rebote simple de proyectiles, resistencia pasiva a golpes.",
+        "tecnicas": [
+          "Gomu Gomu no Pistol (Puño elástico básico)",
+          "Gomu Gomu no Rocket (Impulso hacia objetivos)",
+          "Gomu Gomu no Bazooka (Doble palma de impacto)"
+        ],
+        "costoTenacidad": "50% incrementado",
+        "limitaciones": "Control limitado del estiramiento, retroceso doloroso al sobreextenderse, no puede mantener formas complejas."
+      },
+      "nivel2": {
+        "nombre": "Competente",
+        "potencial": "50%",
+        "capacidades": "Estiramiento hasta 30 metros, rotación de extremidades, combinaciones básicas, rebote controlado.",
+        "tecnicas": [
+          "Gomu Gomu no Gatling (Ráfaga de golpes)",
+          "Gomu Gomu no Whip (Látigo elástico)",
+          "Gomu Gomu no Balloon (Inflado defensivo)",
+          "Gomu Gomu no Stamp (Pisotón aéreo)"
+        ],
+        "costoTenacidad": "Estándar",
+        "control": "Puede mantener estiramiento por períodos prolongados, mejor timing en rebotes."
+      },
+      "nivel3": {
+        "nombre": "Experto",
+        "potencial": "70%",
+        "capacidades": "Estiramiento hasta 50 metros, rotación de múltiples extremidades simultáneas, técnicas de rebote complejo.",
+        "tecnicas": [
+          "Gomu Gomu no Storm (Tormenta de golpes omnidireccional)",
+          "Gomu Gomu no Gigant (Agigantamiento de extremidades)",
+          "Gomu Gomu no UFO (Rotación completa del torso)",
+          "Gomu Gomu no Ono (Hacha descendente gigante)"
+        ],
+        "variaciones": "Combinaciones creativas con rebotes ambientales, uso del entorno como catapulta.",
+        "maestria": "Control fino del estiramiento, timing perfecto en combos."
+      },
+      "nivel4": {
+        "nombre": "Maestro",
+        "potencial": "90%",
+        "capacidades": "Acceso a Gear Second y Gear Third, estiramiento ilimitado práctico, dominio absoluto de la elasticidad.",
+        "tecnicas": [
+          "Gear Second: Bombeo sanguíneo acelerado (+300% velocidad)",
+          "Gear Third: Gigantificación ósea (poder destructivo extremo)",
+          "Gomu Gomu no Red Hawk (Puño de fuego friccional)",
+          "Gomu Gomu no Elephant Gun (Pistola elefante gigante)"
+        ],
+        "transformaciones": "Gear 2 (vaporización corporal), Gear 3 (gigantificación), combinaciones híbridas.",
+        "dominio": "Minimización de debilidades de Gears, transiciones instantáneas."
+      },
+      "nivel5": {
+        "nombre": "Despertar (Awakening)",
+        "potencial": "100%+",
+        "transformacion": "La elasticidad trasciende el cuerpo y afecta el entorno. El usuario puede convertir la materia circundante en goma elástica, creando un campo de batalla completamente bajo su control.",
+        "capacidadesNuevas": [
+          "Convertir suelo, paredes y objetos en goma",
+          "Gear Fourth: Combinación de Haki de Armadura con elasticidad (Boundman, Tankman, Snakeman)",
+          "Gear Fifth: Liberación de propiedades físicas (cartoon logic)",
+          "Manipulación remota de estructuras gomosas"
+        ],
+        "tecnicas": [
+          "Gear Fourth - Boundman (Forma de combate equilibrada)",
+          "Gear Fourth - Snakeman (Velocidad y precisión extremas)",
+          "Gear Fifth - Nika Form (Libertad absoluta de movimiento)",
+          "Gomu Gomu no Bajrang Gun (Puño del tamaño de una isla)"
+        ],
+        "costo": "Gear 4: 30% Tenacidad por minuto. Gear 5: 50% Tenacidad por minuto + agotamiento extremo post-uso.",
+        "riesgos": "Gear 4 causa parálisis temporal al terminar. Gear 5 puede agotar completamente al usuario si no se domina."
+      }
+    },
+    "tecnicasSignature": [
+      {
+        "nombre": "Gomu Gomu no Pistol",
+        "nivelRequerido": "Novato",
+        "tipo": "Ofensiva",
+        "costo": "5% Tenacidad",
+        "descripcion": "Estira el brazo hacia atrás y lo lanza como un proyectil elástico. Daño moderado concentrado en un punto.",
+        "efectoVisual": "El brazo se estira hacia atrás retorciéndose, luego dispara hacia adelante como un resorte liberado con un sonido de látigo."
+      },
+      {
+        "nombre": "Gomu Gomu no Bazooka",
+        "nivelRequerido": "Novato",
+        "tipo": "Ofensiva",
+        "costo": "8% Tenacidad",
+        "descripcion": "Estira ambos brazos hacia atrás y los lanza simultáneamente en doble palma. Empuje devastador.",
+        "efectoVisual": "Ambas palmas impactan el objetivo creando una onda de choque que envía al enemigo volando hacia atrás."
+      },
+      {
+        "nombre": "Gomu Gomu no Gatling",
+        "nivelRequerido": "Competente",
+        "tipo": "Ofensiva",
+        "costo": "15% Tenacidad",
+        "descripcion": "Ráfaga de golpes de alta velocidad. 20-30 impactos por segundo durante 3 segundos.",
+        "efectoVisual": "Los brazos se vuelven borrosos creando la ilusión de docenas de puños golpeando simultáneamente."
+      },
+      {
+        "nombre": "Gomu Gomu no Balloon",
+        "nivelRequerido": "Competente",
+        "tipo": "Defensiva",
+        "costo": "10% Tenacidad",
+        "descripcion": "Infla el torso como un globo gigante para rebotar ataques o absorber explosiones.",
+        "efectoVisual": "El torso se infla a proporciones masivas, rebotando proyectiles y ataques en direcciones aleatorias."
+      },
+      {
+        "nombre": "Gomu Gomu no Storm",
+        "nivelRequerido": "Experto",
+        "tipo": "Ofensiva (Área)",
+        "costo": "25% Tenacidad",
+        "descripcion": "Ráfaga omnidireccional de golpes mientras gira el cuerpo. Golpea todo en 360° alrededor.",
+        "efectoVisual": "El usuario gira como un tornado mientras cientos de puños emergen en todas direcciones creando un muro de impactos."
+      },
+      {
+        "nombre": "Gear Second",
+        "nivelRequerido": "Maestro",
+        "tipo": "Transformación",
+        "costo": "20% inicial + 10% por minuto",
+        "descripcion": "Bombea sangre a velocidad sobrehumana. +200% velocidad, +150% poder. La piel emite vapor.",
+        "efectoVisual": "La piel se torna rojiza y emite vapor constante. Los movimientos dejan rastros visuales."
+      },
+      {
+        "nombre": "Gear Third - Gigant",
+        "nivelRequerido": "Maestro",
+        "tipo": "Transformación",
+        "costo": "15% inicial + 5% por minuto",
+        "descripcion": "Infla los huesos a proporciones gigantescas. +400% poder destructivo. -30% velocidad.",
+        "efectoVisual": "La extremidad elegida crece al tamaño de un gigante, con piel brillante y tensada al máximo."
+      },
+      {
+        "nombre": "Gomu Gomu no Red Hawk",
+        "nivelRequerido": "Maestro",
+        "tipo": "Ofensiva (Fuego)",
+        "costo": "30% Tenacidad",
+        "descripcion": "Combina Gear 2 con Haki de Armadura. El puño se enciende por fricción aérea. Daño masivo + quemaduras.",
+        "efectoVisual": "El brazo se estira hacia atrás enrojecido y cubierto de Haki negro, luego dispara envuelto en llamas carmesí."
+      },
+      {
+        "nombre": "Gear Fourth - Boundman",
+        "nivelRequerido": "Despertar",
+        "tipo": "Transformación",
+        "costo": "30% inicial + 15% por minuto",
+        "descripcion": "Infla músculos con aire + recubre cuerpo con Haki. +300% stats físicos, levitación mediante rebotes.",
+        "efectoVisual": "El cuerpo se vuelve musculoso y negro con marcas tribales rojas. Rebota constantemente en el aire."
+      },
+      {
+        "nombre": "Gear Fifth - Nika Form",
+        "nivelRequerido": "Despertar",
+        "tipo": "Transformación (Mítica)",
+        "costo": "50% inicial + 25% por minuto",
+        "descripcion": "Despertar completo. Libertad absoluta de movimiento. Ignora parcialmente leyes físicas. El entorno se vuelve gomoso.",
+        "efectoVisual": "Cabello y ropa se vuelven blancos etéreos. Ojos brillan intensamente. El cuerpo emite vapor como llamas blancas."
+      }
+    ],
+    "sinergias": {
+      "arquetiposRecomendados": [
+        "Brawler (maximiza combate cuerpo a cuerpo)",
+        "Speedster (aprovecha Gear 2)",
+        "Tanque (Gear 3 + resistencia natural)"
+      ],
+      "statsClave": [
+        "Fuerza (esencial para todos los Gears)",
+        "Velocidad (multiplica efectividad de Gear 2)",
+        "Resistencia (necesaria para Gear 3 y 4)",
+        "Tenacidad (crítica para mantener transformaciones)"
+      ],
+      "combinacionesHaki": [
+        "Haki de Armadura (esencial para Gear 4, maximiza daño)",
+        "Haki de Observación (compensa debilidad a cortes)",
+        "Haki del Conquistador (desbloquea potencial total en Gear 4+)"
+      ],
+      "estilosCombate": [
+        "Cuerpo a cuerpo híbrido con alcance extendido",
+        "Rush down agresivo (Gear 2)",
+        "Bruiser pesado (Gear 3)",
+        "All-rounder (Gear 4)"
+      ]
+    },
+    "usuariosCanonicos": {
+      "usuarios": ["Monkey D. Luffy"],
+      "hazanas": [
+        "Derrota de 3 Shichibukais (Crocodile, Moria, Doflamingo)",
+        "Derrota de 2 Emperadores (Big Mom indirecta, Kaido directa)",
+        "Supervivencia en Marineford contra Almirantes",
+        "Despertar del Gear 5 y manifestación del Dios Sol Nika"
+      ],
+      "inspiracion": "Luffy demostró que la creatividad supera el poder bruto. Cada Gear fue una innovación que rompió límites."
+    },
+    "restricciones": {
+      "reglas": [
+        "Gear 4 requiere Haki de Armadura nivel Experto mínimo",
+        "Gear 5 requiere Despertar completo (nivel 5) + evento narrativo mayor",
+        "Los Gears no pueden combinarse libremente hasta nivel Maestro",
+        "El retroceso de Gear 4 deja al usuario vulnerable por 10 minutos"
+      ],
+      "interaccionesEspeciales": [
+        "Esta fruta interactúa únicamente con Haki del usuario, no puede absorber Haki ajeno",
+        "El Despertar convierte materiales permanentemente hasta que el usuario se desactive",
+        "Gear 5 permite ignorar 1 debilidad estándar (elegir: agua, Kairoseki o Haki) por escena narrativa"
+      ],
+      "advertencias": [
+        "Esta fruta requiere ALTA creatividad del jugador. No es point-and-click.",
+        "Los Gears superiores tienen consecuencias narrativas (agotamiento, vulnerabilidad post-uso)",
+        "Gear 5 debe usarse solo en momentos climáticos con aprobación del staff"
+      ],
+      "requisitosNarrativos": [
+        "Gear 2: Descubrimiento tras entrenamiento de velocidad extremo",
+        "Gear 3: Inspiración tras combate contra oponente gigante",
+        "Gear 4: Entrenamiento con maestro de Haki durante mínimo 1 año narrativo",
+        "Gear 5: Evento de muerte cercana + despertar emocional extremo"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "nombreJapones": "Mera Mera no Mi",
+    "nombreEspanol": "Fruta Fuego-Fuego",
+    "tipo": "Logia",
+    "tier": "S",
+    "imagen": "https://example.com/mera-mera.jpg",
+    "habilidadPrincipal": {
+      "descripcion": "Permite al usuario crear, controlar y transformarse en fuego a voluntad. Otorga intangibilidad completa contra ataques físicos y concede control absoluto sobre llamas.",
+      "transformacion": "Cuerpo de fuego elemental",
+      "elementoControlado": "Fuego y llamas",
+      "capacidadesFundamentales": [
+        "Intangibilidad logia (sin Haki no puede ser tocado)",
+        "Generación ilimitada de fuego",
+        "Control sobre fuego externo",
+        "Inmunidad al calor y fuego",
+        "Vuelo mediante propulsión de llamas"
+      ]
+    },
+    "fortalezas": [
+      "Intangibilidad completa contra ataques físicos sin Haki",
+      "Inmunidad total a fuego, calor, lava inferior y explosiones",
+      "Poder destructivo extremo en área amplia",
+      "Movilidad aérea ilimitada",
+      "Ventaja absoluta contra enemigos sin Haki de Armadura",
+      "Capacidad de iluminar, quemar y fundir materiales",
+      "Dominio ambiental (incendios forestales, mares de fuego)"
+    ],
+    "debilidades": [
+      "Debilidades estándar: agua de mar, Kairoseki, Haki de Armadura",
+      "Extremadamente débil contra Magma (Magu Magu no Mi)",
+      "Ineficaz bajo lluvia intensa o ambientes acuáticos",
+      "Requiere oxígeno para combustión (ineficaz bajo agua o vacío)",
+      "El humo puede ser usado contra el usuario",
+      "Consume tenacidad rápidamente en uso prolongado",
+      "Colateral ambiental extremo (dificulta aliados)"
+    },
+    "progresion": {
+      "nivel1": {
+        "nombre": "Novato",
+        "potencial": "30%",
+        "capacidades": "Generación básica de llamas desde las manos, intangibilidad reactiva (debe concentrarse), vuelo torpe mediante propulsión.",
+        "tecnicas": [
+          "Hi no Ken (Puño de Fuego - proyectil básico)",
+          "Hiken (Puño de Fuego - onda de fuego)",
+          "Hotarubi (Luciérnagas de Fuego - múltiples proyectiles pequeños)"
+        ],
+        "costoTenacidad": "50% incrementado",
+        "limitaciones": "La intangibilidad falla si se distrae. No puede mantener transformación completa. Vuelo inestable."
+      },
+      "nivel2": {
+        "nombre": "Competente",
+        "potencial": "50%",
+        "capacidades": "Intangibilidad reflexiva (automática ante ataques físicos), generación de muros de fuego, propulsión controlada.",
+        "tecnicas": [
+          "Kagero (Espejismo - cuerpo distorsionado por calor)",
+          "Enkai (Círculo de Fuego - barrera defensiva)",
+          "Higan (Orbe de Fuego - bola de fuego comprimida)",
+          "Enjomo (Red de Fuego - ataque de área)"
+        ],
+        "costoTenacidad": "Estándar",
+        "control": "Puede transformarse parcialmente, moldear fuego en formas complejas, mantener vuelo estable."
+      },
+      "nivel3": {
+        "nombre": "Experto",
+        "potencial": "70%",
+        "capacidades": "Transformación elemental total, creación de construcciones de fuego (lanzas, escudos, armaduras), ignición remota de objetivos.",
+        "tecnicas": [
+          "Dai Enkai: Entei (Gran Círculo de Fuego: Emperador de Llamas - sol artificial)",
+          "Hidaruma (Muñeco de Fuego - señuelo ardiente que explota)",
+          "Shinka: Shiranui (Evolución: Fuego Desconocido - lanzas teledirigidas)",
+          "Homura (Llama Final - columna de fuego descendente)"
+        ],
+        "variaciones": "Combinación de llamas con armas físicas (espadas de fuego, proyectiles explosivos)",
+        "maestria": "Control preciso de temperatura, puede crear llamas que no queman aliados."
+      },
+      "nivel4": {
+        "nombre": "Maestro",
+        "potencial": "90%",
+        "capacidades": "Dominio absoluto del fuego. Puede crear fenómenos naturales (tormentas de fuego, tornados ígneos, meteoros). Combustión espontánea de materiales a distancia.",
+        "tecnicas": [
+          "Entei (Sol de Fuego - miniatura solar lanzable)",
+          "Jujika (Cruz de Fuego - explosión cruciforme masiva)",
+          "Hotarubi: Hinotama (Luciérnagas: Bolas de Fuego - enjambre explosivo)",
+          "Kyokaen (Espejo de Fuego - refleja y amplifica ataques de fuego)"
+        ],
+        "transformaciones": "Forma elemental pura (cuerpo de llamas viviente), clones de fuego, avatar de fuego gigante.",
+        "dominio": "Puede absorber fuego externo para restaurar tenacidad, inmune a su propio fuego."
+      },
+      "nivel5": {
+        "nombre": "Despertar (Awakening)",
+        "potencial": "100%+",
+        "transformacion": "El usuario trasciende el fuego físico y accede al 'Fuego Primordial'. Puede convertir el entorno en llamas vivientes y crear fenómenos ígneos que desafían la lógica física.",
+        "capacidadesNuevas": [
+          "Conversión del entorno en fuego sólido/líquido/gaseoso",
+          "Creación de seres de fuego autónomos",
+          "Acceso a 'Llamas Eternas' (fuego que nunca se apaga)",
+          "Combustión conceptual (quemar ideas, memorias, habilidades temporalmente)"
+        ],
+        "tecnicas": [
+          "Dai Entei: Taiyōkami (Gran Emperador de Llamas: Dios del Sol - explosión nuclear)",
+          "Fushichō (Fénix - resurrección mediante llamas)",
+          "Goka Mekkyaku (Gran Flor de Fuego: Extinción - apocalipsis de fuego)",
+          "Moesakaru Sekai (Mundo Ardiente - todo en 1km se convierte en fuego)"
+        ],
+        "costo": "Transformación ambiental: 40% Tenacidad inicial + 20% por minuto. Llamas Eternas: 30% por uso.",
+        "riesgos": "El Despertar puede causar incendios incontrolables. Llamas Eternas drenan vida si se pierde concentración."
+      }
+    },
+    "tecnicasSignature": [
+      {
+        "nombre": "Hiken (Puño de Fuego)",
+        "nivelRequerido": "Novato",
+        "tipo": "Ofensiva",
+        "costo": "10% Tenacidad",
+        "descripcion": "Lanza una onda masiva de fuego en forma de puño desde el brazo. Alcance de 20 metros, 5 metros de ancho.",
+        "efectoVisual": "El brazo se transforma en llamas y dispara una columna de fuego rugiente con forma de puño gigante."
+      },
+      {
+        "nombre": "Kagero (Espejismo)",
+        "nivelRequerido": "Competente",
+        "tipo": "Utilidad/Evasión",
+        "costo": "8% Tenacidad por minuto",
+        "descripcion": "Emite calor extremo distorsionando la luz alrededor. +50% evasión, los ataques parecen atravesar ilusiones.",
+        "efectoVisual": "El aire alrededor del usuario ondula como en un desierto. Su figura parece multiplicarse y distorsionarse."
+      },
+      {
+        "nombre": "Enkai (Círculo de Fuego)",
+        "nivelRequerido": "Competente",
+        "tipo": "Defensiva/Ofensiva",
+        "costo": "15% Tenacidad",
+        "descripcion": "Crea un anillo de fuego de 10 metros de radio. Bloquea proyectiles e incendia enemigos cercanos.",
+        "efectoVisual": "Llamas emergen del suelo formando un muro circular impenetrable que ruge intensamente."
+      },
+      {
+        "nombre": "Dai Enkai: Entei (Gran Círculo de Fuego: Emperador de Llamas)",
+        "nivelRequerido": "Experto",
+        "tipo": "Ofensiva (Ultimate)",
+        "costo": "35% Tenacidad",
+        "descripcion": "Crea un sol artificial de 10 metros de diámetro y lo lanza. Explosión devastadora de 50 metros. Quema todo a cenizas.",
+        "efectoVisual": "Una esfera de fuego blanco incandescente se forma sobre el usuario, iluminando el campo como el día. Al impactar, crea una explosión nuclear de fuego."
+      },
+      {
+        "nombre": "Hidaruma (Muñeco de Fuego)",
+        "nivelRequerido": "Experto",
+        "tipo": "Utilidad/Trampa",
+        "costo": "12% Tenacidad por clon",
+        "descripcion": "Crea clones de fuego que imitan movimientos. Explotan al contacto (5 metros de radio cada uno).",
+        "efectoVisual": "Figuras humanoides de llamas se separan del usuario y se mueven independientemente, explotando en bolas de fuego."
+      },
+      {
+        "nombre": "Jujika (Cruz de Fuego)",
+        "nivelRequerido": "Maestro",
+        "tipo": "Ofensiva (Área)",
+        "costo": "40% Tenacidad",
+        "descripcion": "Dos columnas de fuego perpendiculares se cruzan creando explosión en forma de cruz. 100 metros de alcance total.",
+        "efectoVisual": "Dos paredes masivas de fuego se intersectan creando una cruz flamígera que se expande arrasando todo."
+      },
+      {
+        "nombre": "Hotarubi: Hinotama (Luciérnagas: Bolas de Fuego)",
+        "nivelRequerido": "Maestro",
+        "tipo": "Ofensiva (Enjambre)",
+        "costo": "25% Tenacidad",
+        "descripcion": "Crea 50-100 esferas pequeñas de fuego teledirigidas. Cada una explota al contacto. Persiguen objetivos.",
+        "efectoVisual": "Cientos de pequeñas luces ardientes emergen del usuario como luciérnagas, rastreando enemigos y explotando en cascada."
+      },
+      {
+        "nombre": "Kyokaen (Espejo de Fuego)",
+        "nivelRequerido": "Maestro",
+        "tipo": "Defensiva/Contraataque",
+        "costo": "20% Tenacidad",
+        "descripcion": "Crea un muro de fuego que refleja ataques de fuego, explosiones y energía, amplificándolos al 150%.",
+        "efectoVisual": "Un muro cristalino de llamas blancas refleja el ataque entrante como un espejo, devolviéndolo más poderoso."
+      },
+      {
+        "nombre": "Fushichō (Fénix)",
+        "nivelRequerido": "Despertar",
+        "tipo": "Resurrección",
+        "costo": "60% Tenacidad (o 100% si está a 0 HP)",
+        "descripcion": "Si recibe daño letal, el cuerpo explota en llamas y se regenera completamente. 1 uso por combate.",
+        "efectoVisual": "El cuerpo se desintegra en llamas que forman un fénix gigante. El fénix grita y el usuario emerge completamente curado del fuego."
+      },
+      {
+        "nombre": "Dai Entei: Taiyōkami (Gran Emperador de Llamas: Dios del Sol)",
+        "nivelRequerido": "Despertar",
+        "tipo": "Ofensiva (Catastrófica)",
+        "costo": "70% Tenacidad",
+        "descripcion": "Crea un sol artificial de 50 metros que causa daño continuo en 500 metros. La explosión final (200 metros) arrasa todo. Cambia clima de la zona.",
+        "efectoVisual": "El cielo se oscurece mientras un sol carmesí colosal emerge. La temperatura sube tanto que el aire arde. Al explotar, crea un hongo de fuego visible a kilómetros."
+      }
+    ],
+    "sinergias": {
+      "arquetiposRecomendados": [
+        "Nuker (maximiza daño de área devastador)",
+        "Artillery Mage (control de campo a distancia)",
+        "Duelist (intangibilidad + daño burst)"
+      ],
+      "statsClave": [
+        "Poder (crítico para daño de fuego)",
+        "Control (precisión en área de efecto)",
+        "Tenacidad (esencial para mantener transformaciones)",
+        "Velocidad (movilidad aérea)"
+      ],
+      "combinacionesHaki": [
+        "Haki de Armadura (permite golpes tangibles + fuego)",
+        "Haki de Observación (complementa debilidad a ataques rápidos)",
+        "Haki del Conquistador (Entei potenciado es devastador)"
+      ],
+      "estilosCombate": [
+        "Combate a distancia puro (mantiene intangibilidad)",
+        "Glass cannon (alto daño, baja defensa real contra Haki)",
+        "Control de campo (niega áreas completas con fuego)",
+        "Burst damage (Entei + combos para eliminar objetivos rápidamente)"
+      ]
+    },
+    "usuariosCanonicos": {
+      "usuarios": ["Portgas D. Ace (†)", "Sabo"],
+      "hazanas": [
+        "Ace: Comandante División 2 de Barbablanca, combate parejo contra Aokiji",
+        "Ace: Derrota de Baroque Works casi completo solo",
+        "Sabo: Destrucción del Coliseo Corrida, derrota del Vice-Almirante Bastille",
+        "Sabo: Combate equilibrado contra Almirante Fujitora"
+      ],
+      "inspiracion": "Ace demostró el potencial devastador en área. Sabo mostró refinamiento técnico y creatividad con Ryusoken (Garra Dragón)."
+    },
+    "restricciones": {
+      "reglas": [
+        "La intangibilidad NO funciona contra Haki de Armadura de ningún nivel",
+        "Magu
