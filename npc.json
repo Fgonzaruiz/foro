@@ -21,7 +21,7 @@
     "nombre": "Fleet Admiral Severstal 'Martillo de Hierro' Ironfist",
     "rango": "fleetadmiral",
     "faccion": "marina",
-    "imagen": "URL_IMAGEN_1376x768",
+    "imagen": "https://i.imgur.com/6AIrWuI.jpeg",
     "edad": "127 años",
     "raza": "Gigante (12 metros de altura)",
     "akumaNoMi": "Ninguna",
@@ -257,3 +257,4 @@
     "curiosidades": "Tiene información sobre todo y todos, incluyendo Dragones Celestiales. Incluso el Gobierno lo tolera porque a veces proporciona intel valioso. Nadie sabe sus verdaderas lealtades."
   }
 ]
+
