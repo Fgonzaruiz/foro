@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* CONTENEDOR GENERAL */
+.chrono-kazan {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background: linear-gradient(135deg, #2a1a3d 0%, #1a0f28 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.chrono-header {
+  background: linear-gradient(135deg, #8b2d5f 0%, #5a1d42 100%);
+  padding: 40px 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.chrono-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+  animation: float 20s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(30px,30px); }
+}
+
+.chrono-header h1 {
+  margin: 0;
+  font-family: 'Crimson Text', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.chrono-subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #f0d0e0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+/* TABS */
+.chrono-tabs input[type="radio"] {
+  display: none;
+}
+
+.chrono-tab-labels {
+  display: flex;
+  background: #1a0f28;
+  border-bottom: 3px solid #8b2d5f;
+}
+
+.chrono-tab-labels label {
+  flex: 1;
+  text-align: center;
+  padding: 25px 20px;
+  cursor: pointer;
+  color: #b8a0c0;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.chrono-tab-labels label span {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+#cronologia:checked ~ .chrono-tab-labels label[for="cronologia"],
+#relaciones:checked ~ .chrono-tab-labels label[for="relaciones"] {
+  background: linear-gradient(135deg, #8b2d5f, #5a1d42);
+  color: #fff;
+}
+
+/* CONTENIDOS */
+.chrono-content {
+  display: none;
+  padding: 40px 30px;
+}
+
+#cronologia:checked ~ .cronologia-content,
+#relaciones:checked ~ .relaciones-content {
+  display: block;
+}
+
+/* AÑOS */
+.year-title {
+  font-family: 'Crimson Text', serif;
+  font-size: 36px;
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ESTACIONES */
+.seasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 25px;
+}
+
+.season-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 20px;
+  border: 2px solid;
+}
+
+.season-card.primavera { border-color: #ff69b4; }
+.season-card.verano { border-color: #ffd700; }
+.season-card.otono { border-color: #ff8c42; }
+.season-card.invierno { border-color: #87ceeb; }
+
+.season-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.season-header h3 {
+  font-family: 'Crimson Text', serif;
+  color: #fff;
+}
+
+/* THREADS */
+.thread-item {
+  background: rgba(0,0,0,0.3);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.thread-link {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.thread-info {
+  font-size: 13px;
+  color: #b8a0c0;
+}
+
+/* RELACIONES */
+.relaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap: 25px;
+}
+
+.relacion-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid;
+}
+
+.relacion-card.aliado { border-color: #4caf50; }
+.relacion-card.enemigo { border-color: #f44336; }
+.relacion-card.neutral { border-color: #9e9e9e; }
+.relacion-card.familia { border-color: #e91e63; }
+
+.relacion-name {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .chrono-header h1 { font-size: 32px; }
+  .seasons-grid,
+  .relaciones-grid { grid-template-columns: 1fr; }
+}
