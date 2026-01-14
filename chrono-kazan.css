@@ -7,6 +7,7 @@
   color: #3D2817;
   border: 2px solid #8B4513;
   box-shadow: 0 0 20px rgba(139, 69, 19, 0.3);
+  overflow: hidden; /* AÑADIDO */
 }
 
 /* ============ TABS PRINCIPALES ============ */
@@ -19,13 +20,14 @@ input[name="year-tab"] {
   display: flex;
   background: #8B4267;
   border-bottom: 3px solid #6B3250;
+  font-size: 0; /* AÑADIDO - elimina espacios entre labels */
 }
 
 .main-tab-label {
   flex: 1;
   padding: 15px 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 14px; /* Restaura tamaño */
   font-weight: bold;
   letter-spacing: 1px;
   cursor: pointer;
@@ -34,6 +36,8 @@ input[name="year-tab"] {
   transition: all 0.3s;
   color: #E8DCC8;
   text-transform: uppercase;
+  display: inline-block; /* AÑADIDO */
+  box-sizing: border-box; /* AÑADIDO */
 }
 
 .main-tab-label:last-child {
@@ -69,6 +73,7 @@ input[name="year-tab"] {
   padding: 10px 15px 0 15px;
   gap: 5px;
   border-bottom: 2px solid #8B4513;
+  font-size: 0; /* AÑADIDO - elimina espacios entre labels */
 }
 
 .year-tab-label {
@@ -78,11 +83,14 @@ input[name="year-tab"] {
   border-bottom: none;
   border-radius: 5px 5px 0 0;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 12px; /* Restaura tamaño */
   letter-spacing: 0.5px;
   cursor: pointer;
   transition: all 0.3s;
   color: #5D4E37;
+  display: inline-block; /* AÑADIDO */
+  box-sizing: border-box; /* AÑADIDO */
+  margin: 0 2px; /* AÑADIDO - controla espaciado */
 }
 
 .year-tab-label:hover {
@@ -223,130 +231,142 @@ input[name="year-tab"] {
   border: 2px solid #8B4513;
   padding: 15px;
   margin-bottom: 15px;
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-transition: all 0.3s;
-overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+  overflow: hidden;
 }
+
 .relation-entry:hover {
-box-shadow: 0 4px 15px rgba(139, 69, 19, 0.25);
-transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.25);
+  transform: translateY(-2px);
 }
+
 /* RIBBON - Cinta superior derecha */
 .relation-ribbon {
-position: absolute;
-top: 12px;
-right: -35px;
-padding: 5px 45px;
-font-size: 10px;
-font-weight: bold;
-letter-spacing: 1px;
-transform: rotate(45deg);
-box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-color: #FFF;
-text-transform: uppercase;
+  position: absolute;
+  top: 12px;
+  right: -35px;
+  padding: 5px 45px;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: #FFF;
+  text-transform: uppercase;
 }
+
 /* COLORES POR TIPO DE RELACIÓN */
-/* Aliado - Verde */
 .aliado { border-color: #2E7D32; }
 .aliado:hover { border-color: #43A047; }
 .ribbon-aliado { background: linear-gradient(135deg, #2E7D32, #43A047); }
 .aliado .relation-avatar img { border-color: #2E7D32; }
-/* Enemigo - Rojo oscuro */
+
 .enemigo { border-color: #B71C1C; }
 .enemigo:hover { border-color: #D32F2F; }
 .ribbon-enemigo { background: linear-gradient(135deg, #B71C1C, #D32F2F); }
 .enemigo .relation-avatar img { border-color: #B71C1C; }
-/* Conocido - Gris */
+
 .conocido { border-color: #757575; }
 .conocido:hover { border-color: #9E9E9E; }
 .ribbon-conocido { background: linear-gradient(135deg, #757575, #9E9E9E); }
 .conocido .relation-avatar img { border-color: #757575; }
-/* Amigo - Azul */
+
 .amigo { border-color: #1976D2; }
 .amigo:hover { border-color: #2196F3; }
 .ribbon-amigo { background: linear-gradient(135deg, #1976D2, #2196F3); }
 .amigo .relation-avatar img { border-color: #1976D2; }
-/* Rival - Naranja */
+
 .rival { border-color: #F57C00; }
 .rival:hover { border-color: #FB8C00; }
 .ribbon-rival { background: linear-gradient(135deg, #F57C00, #FB8C00); }
 .rival .relation-avatar img { border-color: #F57C00; }
-/* Mentor - Morado */
+
 .mentor { border-color: #6A1B9A; }
 .mentor:hover { border-color: #8E24AA; }
 .ribbon-mentor { background: linear-gradient(135deg, #6A1B9A, #8E24AA); }
 .mentor .relation-avatar img { border-color: #6A1B9A; }
-/* Familia - Rosa oscuro */
+
 .familia { border-color: #C2185B; }
 .familia:hover { border-color: #D81B60; }
 .ribbon-familia { background: linear-gradient(135deg, #C2185B, #D81B60); }
 .familia .relation-avatar img { border-color: #C2185B; }
-/* Romántico - Rosa */
+
 .romantico { border-color: #E91E63; }
 .romantico:hover { border-color: #F06292; }
 .ribbon-romantico { background: linear-gradient(135deg, #E91E63, #F06292); }
 .romantico .relation-avatar img { border-color: #E91E63; }
-/* Desconfianza - Amarillo oscuro */
+
 .desconfianza { border-color: #F9A825; }
 .desconfianza:hover { border-color: #FBC02D; }
 .ribbon-desconfianza { background: linear-gradient(135deg, #F9A825, #FBC02D); }
 .desconfianza .relation-avatar img { border-color: #F9A825; }
-/* Protegido - Verde azulado */
+
 .protegido { border-color: #00897B; }
 .protegido:hover { border-color: #26A69A; }
 .ribbon-protegido { background: linear-gradient(135deg, #00897B, #26A69A); }
 .protegido .relation-avatar img { border-color: #00897B; }
-/* Complicado - Morado claro */
+
 .complicado { border-color: #5E35B1; }
 .complicado:hover { border-color: #7E57C2; }
 .ribbon-complicado { background: linear-gradient(135deg, #5E35B1, #7E57C2); }
 .complicado .relation-avatar img { border-color: #5E35B1; }
-/* Respeto - Gris azulado */
+
 .respeto { border-color: #455A64; }
 .respeto:hover { border-color: #607D8B; }
 .ribbon-respeto { background: linear-gradient(135deg, #455A64, #607D8B); }
 .respeto .relation-avatar img { border-color: #455A64; }
+
 .relation-content {
-display: flex;
-gap: 15px;
+  display: flex;
+  gap: 15px;
 }
+
 .relation-avatar {
-flex-shrink: 0;
+  flex-shrink: 0;
 }
+
 .relation-avatar img {
-width: 100px;
-height: 100px;
-border: 3px solid;
-object-fit: cover;
-box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-transition: all 0.3s;
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s;
+  display: block; /* AÑADIDO */
 }
+
 .relation-entry:hover .relation-avatar img {
-box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transform: scale(1.03);
 }
+
 .relation-info {
-flex-grow: 1;
+  flex-grow: 1;
 }
+
 .relation-name {
-font-size: 16px;
-font-weight: bold;
-color: #6B3250;
-margin: 0 0 12px 0;
-letter-spacing: 0.5px;
-text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6B3250;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
+
 .relation-detail {
-margin-bottom: 8px;
-font-size: 12px;
-line-height: 1.5;
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.5;
 }
+
 .detail-label {
-color: #8B4513;
-font-weight: bold;
-display: inline-block;
-min-width: 110px;
+  color: #8B4513;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 110px;
 }
+
 .detail-text {
-color: #3D2817;
+  color: #3D2817;
 }
